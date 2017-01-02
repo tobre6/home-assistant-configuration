@@ -42,7 +42,7 @@ sensor.speedtest_download:
   icon: mdi:download
 sensor.speedtest_upload:
   icon: mdi:upload
- 
+
 # Climate
 
 # Device tracker
@@ -79,14 +79,15 @@ switch.niito_schedule:
 switch.hobby_room_thermostat:
   icon: mdi:oil-temperature
 switch.bedroom_thermostat:
-  icon: mdi:oil-temperature  
+  icon: mdi:oil-temperature
 switch.living_room_thermostat:
   icon: mdi:oil-temperature
 switch.bathroom_thermostat:
   icon: mdi:oil-temperature
 switch.hallway_thermostat:
   icon: mdi:oil-temperature
-
+switch.car_heater:
+  icon: mdi:fan
 
 # Media players
 
@@ -114,7 +115,7 @@ light.fibaro_system_fgd212_dimmer_2_level_8_0_2:
 light.fibaro_system_fgd212_dimmer_2_step_size_8_6:
   hidden: true
 light.fibaro_system_fgd212_dimmer_2_step_size_8_6_2:
-  hidden: true  
+  hidden: true
 switch.wenzhou_tkb_control_system_tz66d_dual_wall_switch_switch_2_0:
   hidden: true
 script.bathroom_timed_light:
@@ -126,6 +127,8 @@ script.bedroom_light_delay:
 script.front_door_lock:
   hidden: true
 script.turn_tv_on:
+  hidden: true
+script.car_heater_delay:
   hidden: true
 sensor.plex_spy:
   hidden: true

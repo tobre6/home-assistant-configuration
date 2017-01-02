@@ -1,0 +1,9 @@
+car_heater_delay:
+  alias: Automatically turn off car heater after n minutes
+  sequence:
+    - alias: Wait n minutes
+      delay:
+        minutes: 15
+    - alias: Turn off
+      service: switch.turn_off
+      entity_id: switch.car_heater

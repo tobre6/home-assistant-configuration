@@ -1,0 +1,4 @@
+turn_car_heater_automation_on:
+  name: Turn car heater automation on
+  initial: on
+  icon: mdi:car

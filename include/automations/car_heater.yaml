@@ -1,0 +1,31 @@
+- alias: Turn off car heater after n minutes
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: switch.car_heater
+      to: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.car_heater_delay
+
+- alias: Turn car heater on at morning
+  hide_entity: true
+  trigger:
+    - platform: time
+      after: '8:30'
+  condition:
+    condition: and
+    conditions:
+      - condition: state
+        entity_id: input_boolean.turn_car_heater_automation_on
+        state: 'on'
+      - condition: time
+        weekday:
+          - mon
+          - tue
+          - wed
+          - thu
+          - fri
+  action:
+    service: switch.turn_on
+    entity_id: switch.car_heater

@@ -1,4 +1,6 @@
 settings:
   name: Settings
+  control: hidden
   entities:
     - input_boolean.turn_wakeup_lights_on
+    - input_boolean.turn_car_heater_automation_on
