@@ -1,0 +1,22 @@
+bathroom_timed_light:
+  alias: Turn lights on and set timer
+  sequence:
+    - alias: Turn lights on
+      service: switch.turn_on
+      entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0_2
+    - alias: Turn off old timer
+      service: script.turn_off
+      entity_id: script.bathroom_light_delay
+      
+bathroom_light_delay:
+  alias: Automatically turn off bathroom light after n minutes
+  sequence:
+    - alias: Wait n minutes
+      delay:
+        minutes: 1
+    - condition: state
+      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_3_10
+      state: '0'
+    - alias: Turn lights off
+      service: switch.turn_off
+      entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0_2

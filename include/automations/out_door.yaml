@@ -1,0 +1,27 @@
+- alias: Unlock door when getting home
+  hide_entity: true
+  trigger:
+    platform: state
+    entity_id: device_tracker.016edfbd80af4e688a07f4b06da9be37
+    from: 'not_home'
+    to: 'home'
+  condition:
+    condition: state
+    entity_id: device_tracker.016edfbd80af4e688a07f4b06da9be37
+    state: 'home'
+    for:
+      minutes: 10
+  action:
+    service: lock.unlock
+    entity_id: lock.out_door
+
+
+- alias: Lock out door after 30 seconds
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: lock.out_door
+      to: 'unlocked'
+  action:
+    service: script.turn_on
+    entity_id: script.out_door

@@ -1,0 +1,13 @@
+platform: mqtt
+name: "Livingroom windowshade"
+state_topic: "home/windowshades"
+command_topic: "home/windowshades"
+payload_open: "open"
+payload_close: "close"
+payload_stop: "stop"
+state_open: "open"
+state_closed: "close"
+optimistic: false
+qos: 0
+retain: false
+#    value_template: '{{ value.x }}'

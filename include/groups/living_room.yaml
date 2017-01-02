@@ -1,0 +1,13 @@
+living_room:
+  name: Living room
+  entities:
+    - sensor.aeotec_zw100_multisensor_6_temperature_7_1
+    - sensor.aeotec_zw100_multisensor_6_relative_humidity_7_5
+    - sensor.aeotec_zw100_multisensor_6_luminance_7_3
+    - sensor.aeotec_zw100_multisensor_6_ultraviolet_7_27
+    - binary_sensor.aeotec_zw100_multisensor_6_sensor_7_0
+    - sensor.aeotec_zw100_multisensor_6_burglar_7_10
+    - media_player.living_room_tv
+    - switch.tv_switch
+    - cover.livingroom_windowshade
+    - switch.living_room_thermostat

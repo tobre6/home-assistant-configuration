@@ -1,0 +1,9 @@
+.HA_VERSION
+.uuid
+deps
+home-assistant_v2.db
+home-assistant.log
+OZW_Log.txt
+zwscene.xml
+zwcfg_0xeca9219c.xml
+secrets.yaml

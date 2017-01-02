@@ -1,0 +1,9 @@
+platform: mqtt
+name: "Out door"
+state_topic: "home/doorbuzzer/status"
+command_topic: "home/doorbuzzer"
+payload_lock: "off"
+payload_unlock: "on"
+optimistic: false
+qos: 0
+retain: false

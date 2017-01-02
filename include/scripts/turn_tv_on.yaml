@@ -1,0 +1,12 @@
+turn_tv_on:
+  alias: Turn tv on
+  sequence:
+    - alias: AppleTV on
+      service: shell_command.turn_apple_tv_on
+    - delay:
+        seconds: 60
+    - alias: Change source to TV
+      service: media_player.select_source
+      data:
+        entity_id: media_player.living_room_tv
+        source: "Telia TV"

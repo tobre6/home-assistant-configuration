@@ -1,0 +1,10 @@
+platform: mqtt
+name: "Bedroom thermostat"
+state_topic: "home/thermostat/status"
+command_topic: "home/thermostat"
+payload_on: "R5 OPEN"
+payload_off: "R5 CLOSE"
+optimistic: false
+qos: 0
+retain: false
+#  value_template: '{{ value.x }}'

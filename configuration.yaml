@@ -1,0 +1,52 @@
+homeassistant:
+  name: Home
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: !secret home_elevation
+  unit_system: metric
+  time_zone: Europe/Tallinn
+ 
+  customize: !include include/customize.yaml
+
+frontend:
+
+http:
+   api_password: !secret api_password
+   ip_ban_enabled: True
+   login_attempts_threshold: 3
+   
+discovery:
+
+conversation:
+
+history:
+
+logbook:
+
+sun:
+
+updater:
+
+zwave: !include include/zwave.yaml
+
+mqtt: !include include/mqtt.yaml
+
+octoprint:
+  host: 192.168.1.160
+  api_key: !secret octoprint_api_key
+
+
+switch: !include_dir_list include/switches
+media_player: !include_dir_list include/media_players
+light: !include_dir_list include/lights
+lock: !include_dir_list include/locks
+climate: !include_dir_list include/climates
+cover: !include_dir_list include/covers
+device_tracker: !include_dir_list include/device_trackers
+shell_command: !include include/shell_commands.yaml
+scene: !include_dir_list include/scenes.yaml
+automation: !include_dir_merge_list include/automations
+script: !include_dir_merge_named include/scripts
+zone: !include_dir_list include/zones
+group: !include_dir_merge_named include/groups
+sensor: !include_dir_merge_list include/sensors

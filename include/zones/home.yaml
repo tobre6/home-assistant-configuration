@@ -1,0 +1,6 @@
+name: Home
+latitude: 58.380934
+longitude: 26.745554
+radius: 100
+icon: mdi:account-multiple
+passive: false

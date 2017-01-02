@@ -1,0 +1,8 @@
+front_door_lock:
+  alias: Front Door lock after n minutes
+  sequence:
+    - delay:
+        minutes: 1
+    - alias: Door Closed
+      service: lock.lock     
+      entity_id: lock.out_door

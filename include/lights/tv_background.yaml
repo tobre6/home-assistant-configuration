@@ -1,0 +1,15 @@
+platform: mqtt
+name: "TV background light"
+state_topic: "home/tv-light/status"
+command_topic: "home/tv-light/switch"
+brightness_state_topic: "home/tv-light/brightness/status"
+brightness_command_topic: "home/tv-light/brightness/set"
+rgb_state_topic: "home/tv-light/rgb/status"
+rgb_command_topic: "home/tv-light/rgb/set"
+#    state_value_template: "{{ value_json.state }}"
+#    brightness_value_template: "{{ value_json.brightness }}"
+#    rgb_value_template: "{{ value_json.rgb | join(',') }}"
+qos: 0
+payload_on: "on"
+payload_off: "off"
+optimistic: false

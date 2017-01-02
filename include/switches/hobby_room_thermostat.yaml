@@ -1,0 +1,9 @@
+platform: mqtt
+name: "Hobby room thermostat"
+state_topic: "home/thermostat/status"
+command_topic: "home/thermostat"
+payload_on: "R2 OPEN"
+payload_off: "R2 CLOSE"
+optimistic: false
+qos: 0
+retain: false

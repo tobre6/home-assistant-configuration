@@ -1,0 +1,3 @@
+platform: neato
+username: tobre@bitweb.ee
+password: !secret neato_password

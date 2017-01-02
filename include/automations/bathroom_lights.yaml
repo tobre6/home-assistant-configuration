@@ -1,0 +1,19 @@
+- alias: Turn on bathroom light when motion detected
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_3_10
+      to: '8'
+  action:
+    service: script.turn_on
+    entity_id: script.bathroom_timed_light
+
+- alias: Turn off bathroom light when motion ends
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_3_10
+      to: '0'
+  action:
+    service: script.turn_on
+    entity_id: script.bathroom_light_delay

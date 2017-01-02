@@ -1,0 +1,26 @@
+- alias: Turn off bedroom light after n minutes
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0
+      to: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.bedroom_light_delay
+
+- alias: Turn lights on at morning
+  hide_entity: true
+  trigger:
+    - platform: time
+      after: '9:30'
+  condition:
+    condition: time
+    weekday:
+      - mon
+      - tue
+      - wed
+      - thu
+      - fri
+  action: 
+    service: switch.turn_on
+    entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0

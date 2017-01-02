@@ -1,0 +1,4 @@
+name: Good morning
+entities:
+  switch.tv_switch:
+    state: on
