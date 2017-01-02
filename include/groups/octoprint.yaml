@@ -7,3 +7,4 @@ octoprint:
     - sensor.octoprint_job_percentage
     - sensor.octoprint_target_bed_temp
     - sensor.octoprint_target_tool0_temp
+    - camera.octoprint_camera

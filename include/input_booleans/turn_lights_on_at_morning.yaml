@@ -1,0 +1,4 @@
+turn_wakeup_lights_on:
+  name: Turn wakeup lights on at morning
+  initial: on
+  icon: mdi:alarm

@@ -1,0 +1,6 @@
+system_view:
+  view: yes
+  name: System
+  entities:
+    - group.system
+    - group.speedtest

@@ -1,0 +1,5 @@
+octoprint_view:
+  view: yes
+  name: 3D printer
+  entities:
+    - group.octoprint

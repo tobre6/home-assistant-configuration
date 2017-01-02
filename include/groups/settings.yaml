@@ -1,0 +1,4 @@
+settings:
+  name: Settings
+  entities:
+    - input_boolean.turn_wakeup_lights_on

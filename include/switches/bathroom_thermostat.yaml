@@ -6,5 +6,5 @@ payload_on: "R1 OPEN"
 payload_off: "R1 CLOSE"
 optimistic: false
 qos: 0
-retain: false
+retain: true
 #  value_template: '{{ value.x }}'

@@ -2,3 +2,5 @@ name: Good morning
 entities:
   switch.tv_switch:
     state: on
+  light.fibaro_system_fgd212_dimmer_2_level_8_0: # living room ceiling
+    state: on

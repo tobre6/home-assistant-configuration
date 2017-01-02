@@ -1,6 +1,6 @@
 platform: command_line
 switches:
-  webasto:
+  car_heater:
     command_on: "/usr/bin/curl -X GET 'http://api2.messente.com/send_sms/?username=5cf2f050fff4533b997944ad8c0e5e4a&password=a89ac450d70ba1452a2eb9491412eef4&to=%2B37256745323&text=START'"
     command_off: "/usr/bin/curl -X GET 'http://api2.messente.com/send_sms/?username=5cf2f050fff4533b997944ad8c0e5e4a&password=a89ac450d70ba1452a2eb9491412eef4&to=%2B37256745323&text=STOP'"
 #      command_state: "/usr/bin/curl -X GET http://192.168.1.10/digital/4"

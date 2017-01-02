@@ -1,0 +1,3 @@
+platform: mjpeg
+name: Octoprint camera
+mjpeg_url: http://tobre.synology.me:5002/webcam/?action=stream

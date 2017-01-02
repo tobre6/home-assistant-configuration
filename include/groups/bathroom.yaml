@@ -1,5 +1,6 @@
 bathroom:
   name: Bathroom
+  control: hidden
   entities:
     - sensor.aeotec_zw100_multisensor_6_temperature_3_1
     - sensor.aeotec_zw100_multisensor_6_relative_humidity_3_5

@@ -1,5 +1,6 @@
 living_room:
   name: Living room
+  control: hidden
   entities:
     - sensor.aeotec_zw100_multisensor_6_temperature_7_1
     - sensor.aeotec_zw100_multisensor_6_relative_humidity_7_5
@@ -9,5 +10,9 @@ living_room:
     - sensor.aeotec_zw100_multisensor_6_burglar_7_10
     - media_player.living_room_tv
     - switch.tv_switch
+    - light.tv_background_light
+    - light.fibaro_system_fgd212_dimmer_2_level_8_0
     - cover.livingroom_windowshade
+    - climate.living_room_climate
     - switch.living_room_thermostat
+    

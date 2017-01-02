@@ -1,0 +1,5 @@
+settings_view:
+  view: yes
+  name: Settings
+  entities:
+    - group.settings

@@ -1,0 +1,8 @@
+weather:
+  name: Weather
+  entities:
+    - sun.sun
+    - sensor.yweather_current
+    - sensor.yweather_humidity
+    - sensor.yweather_temperature
+    - sensor.yweather_wind_speed

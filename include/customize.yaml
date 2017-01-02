@@ -32,8 +32,17 @@ binary_sensor.aeotec_zw100_multisensor_6_sensor_7_0:
 sensor.aeotec_zw100_multisensor_6_burglar_7_10:
   friendly_name: Living room  motion sensor
   icon: mdi:run
-  sensor_class: motion
-  
+sensor.niito_battery:
+  friendly_name: Neato battery level
+  icon: mdi:battery
+sensor.niito_status:
+  friendly_name: Neato status
+  icon: mdi:broom
+sensor.speedtest_download:
+  icon: mdi:download
+sensor.speedtest_upload:
+  icon: mdi:upload
+ 
 # Climate
 
 # Device tracker
@@ -50,9 +59,8 @@ cover.livingroom_windowshade:
 
 # Switches
 switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0:
-  friendly_name: Hobby room lamp
+  friendly_name: Hobby room ceiling
   icon: mdi:lightbulb
-
 switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0:
   friendly_name: Bathroom ceiling
   icon: mdi:lightbulb
@@ -62,6 +70,22 @@ switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0_2:
 switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0:
   friendly_name: Bedroom ceiling
   icon: mdi:lightbulb
+switch.niito_clean:
+  friendly_name: Neato
+  icon: mdi:broom
+switch.niito_schedule:
+  friendly_name: Neato schedule
+  icon: mdi:calendar-multiple-check
+switch.hobby_room_thermostat:
+  icon: mdi:oil-temperature
+switch.bedroom_thermostat:
+  icon: mdi:oil-temperature  
+switch.living_room_thermostat:
+  icon: mdi:oil-temperature
+switch.bathroom_thermostat:
+  icon: mdi:oil-temperature
+switch.hallway_thermostat:
+  icon: mdi:oil-temperature
 
 
 # Media players
@@ -91,4 +115,17 @@ light.fibaro_system_fgd212_dimmer_2_step_size_8_6:
   hidden: true
 light.fibaro_system_fgd212_dimmer_2_step_size_8_6_2:
   hidden: true  
-
+switch.wenzhou_tkb_control_system_tz66d_dual_wall_switch_switch_2_0:
+  hidden: true
+script.bathroom_timed_light:
+  hidden: true
+script.bathroom_light_delay:
+  hidden: true
+script.bedroom_light_delay:
+  hidden: true
+script.front_door_lock:
+  hidden: true
+script.turn_tv_on:
+  hidden: true
+sensor.plex_spy:
+  hidden: true

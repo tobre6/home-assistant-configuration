@@ -10,3 +10,7 @@ entities:
     state: off
   switch.tv_switch:
     state: off
+  light.fibaro_system_fgd212_dimmer_2_level_8_0:
+    state: off
+  light.bedroom_reading:
+    state: on

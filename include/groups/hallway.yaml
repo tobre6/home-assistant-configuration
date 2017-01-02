@@ -1,0 +1,6 @@
+hallway:
+  name: Hallway
+  control: hidden
+  entities:
+    - lock.out_door
+    - switch.hallway_thermostat
