@@ -54,6 +54,10 @@ light.fibaro_system_fgd212_dimmer_2_level_8_0:
   friendly_name: Living room ceiling
 light.fibaro_system_fgd212_dimmer_2_level_10_0:
   friendly_name: Living room table
+light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2:
+  friendly_name: Kitchen lights
+light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6:
+  friendly_name: Kitchen working lights
 
 # Covers
 cover.livingroom_windowshade:
@@ -119,6 +123,14 @@ light.fibaro_system_fgd212_dimmer_2_step_size_8_6:
 light.fibaro_system_fgd212_dimmer_2_step_size_8_6_2:
   hidden: true
 light.fibaro_system_fgd212_dimmer_2_step_size_10_6: # living room table
+  hidden: true
+light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0: # kitchen rgbw controller one channel
+  hidden: true
+light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_3: #kitchen R
+  hidden: true
+light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_4: #kitchen G
+  hidden: true
+light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_5: #kitchen B
   hidden: true
 switch.wenzhou_tkb_control_system_tz66d_dual_wall_switch_switch_2_0:
   hidden: true

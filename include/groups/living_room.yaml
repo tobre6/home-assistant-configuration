@@ -13,6 +13,8 @@ living_room:
     - light.tv_background_light
     - light.fibaro_system_fgd212_dimmer_2_level_8_0 # ceiling
     - light.fibaro_system_fgd212_dimmer_2_level_10_0 #table
+    - light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2 #kithcen lights
+    - light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6 #kithcen working lights
     - cover.livingroom_windowshade
     - climate.living_room_climate
     - switch.living_room_thermostat
