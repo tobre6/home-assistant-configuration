@@ -53,7 +53,7 @@ sensor.speedtest_upload:
 light.fibaro_system_fgd212_dimmer_2_level_8_0:
   friendly_name: Living room ceiling
 light.fibaro_system_fgd212_dimmer_2_level_10_0:
-  friendly_name: Living toom table
+  friendly_name: Living room table
 
 # Covers
 cover.livingroom_windowshade:
