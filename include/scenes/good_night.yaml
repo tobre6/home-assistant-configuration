@@ -10,7 +10,9 @@ entities:
     state: off
   switch.tv_switch:
     state: off
-  light.fibaro_system_fgd212_dimmer_2_level_8_0:
+  light.fibaro_system_fgd212_dimmer_2_level_8_0: #living room ceiling
+    state: off
+  light.fibaro_system_fgd212_dimmer_2_level_10_0: #living room table
     state: off
   light.bedroom_reading:
     state: on

@@ -4,3 +4,5 @@ entities:
     state: on
   light.fibaro_system_fgd212_dimmer_2_level_8_0: # living room ceiling
     state: on
+  light.fibaro_system_fgd212_dimmer_2_level_8_0: #living room table
+    state: on
