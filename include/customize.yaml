@@ -94,6 +94,8 @@ switch.hallway_thermostat:
   icon: mdi:oil-temperature
 switch.car_heater:
   icon: mdi:fan
+switch.tv_switch:
+  icon: mdi:televison
 
 # Media players
 
