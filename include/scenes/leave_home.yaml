@@ -1,4 +1,4 @@
-name: Good night
+name: Leave home
 entities:
   switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0:
     state: off
@@ -17,4 +17,4 @@ entities:
   light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2: #kitchen lights
     state: off
   light.bedroom_reading:
-    state: on
+    state: off
