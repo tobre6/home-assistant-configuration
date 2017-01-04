@@ -1,0 +1,5 @@
+energy_view:
+  view: yes
+  name: Energy and consumptions
+  entities:
+    - group.energy

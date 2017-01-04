@@ -1,0 +1,15 @@
+energy:
+  name: Power and Energy
+  control: hidden
+  entities:
+    - sensor.fibaro_system_fgd212_dimmer_2_power_10_4
+    - sensor.fibaro_system_fgd212_dimmer_2_power_10_8
+    - sensor.fibaro_system_fgd212_dimmer_2_power_8_4
+    - sensor.fibaro_system_fgd212_dimmer_2_power_8_8
+    - sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_9_4
+    - sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_9_8
+    - sensor.fibaro_system_fgd212_dimmer_2_power_10_4
+    - sensor.fibaro_system_fgd212_dimmer_2_power_10_8
+    - sensor.fibaro_system_fgd212_dimmer_2_energy_8_0
+    - sensor.fibaro_system_fgrgbwm441_rgbw_controller_energy_9_0
+    - sensor.fibaro_system_fgd212_dimmer_2_energy_10_0
