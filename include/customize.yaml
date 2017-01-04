@@ -30,7 +30,23 @@ sensor.aeotec_zw100_multisensor_6_ultraviolet_7_27:
 binary_sensor.aeotec_zw100_multisensor_6_sensor_7_0:
   friendly_name: Living room sensor
 sensor.aeotec_zw100_multisensor_6_burglar_7_10:
-  friendly_name: Living room  motion sensor
+  friendly_name: Living room motion sensor
+  icon: mdi:run
+sensor.aeotec_zw100_multisensor_6_temperature_12_1:
+  friendly_name: Bedroom Temperature
+sensor.aeotec_zw100_multisensor_6_relative_humidity_12_5:
+  friendly_name: Bedroom Humidity
+  icon: mdi:water
+sensor.aeotec_zw100_multisensor_6_luminance_12_3:
+  friendly_name: Bedroom Luminance
+  icon: mdi:weather-sunny
+sensor.aeotec_zw100_multisensor_6_ultraviolet_12_27:
+  friendly_name: Bedroom Ultraviolet
+  icon: mdi:sunglasses
+binary_sensor.aeotec_zw100_multisensor_6_sensor_12_0:
+  friendly_name: Bedroom sensor
+sensor.aeotec_zw100_multisensor_6_burglar_12_10:
+  friendly_name: Bedroom motion sensor
   icon: mdi:run
 sensor.niito_battery:
   friendly_name: Neato battery level
@@ -181,7 +197,7 @@ sensor.fibaro_system_fgd212_dimmer_2_exporting_10_32:
 sensor.fibaro_system_fgd212_dimmer_2_exporting_8_32:
   hidden: true
 sensor.fibaro_system_fgrgbwm441_rgbw_controller_exporting_9_32:
-  hidden: true  
+  hidden: true
 sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_10_2:
   hidden: true
 sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_8_2:
@@ -189,4 +205,16 @@ sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_8_2:
 sensor.fibaro_system_fgd212_dimmer_2_system_10_12:
   hidden: true
 sensor.fibaro_system_fgd212_dimmer_2_system_8_12:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_alarm_level_11_1:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_alarm_type_11_0:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_sourcenodeid_11_2:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_alarm_level_12_1:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_alarm_type_12_0:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_sourcenodeid_12_2:
   hidden: true
