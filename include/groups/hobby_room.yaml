@@ -4,7 +4,6 @@ hobby_room:
   entities:
     - switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0
     - switch.niito_clean
-    - switch.niito_schedule
     - sensor.niito_status
     - sensor.niito_battery
     - switch.hobby_room_thermostat
