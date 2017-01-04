@@ -2,5 +2,12 @@ hallway:
   name: Hallway
   control: hidden
   entities:
+    - sensor.aeotec_zw100_multisensor_6_temperature_11_1
+    - sensor.aeotec_zw100_multisensor_6_relative_humidity_11_5
+    - sensor.aeotec_zw100_multisensor_6_luminance_11_3
+    - sensor.aeotec_zw100_multisensor_6_ultraviolet_11_27
+    - binary_sensor.aeotec_zw100_multisensor_6_sensor_11_0
+    - sensor.aeotec_zw100_multisensor_6_burglar_11_10
     - lock.out_door
+    - climate.hallway_climate
     - switch.hallway_thermostat

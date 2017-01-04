@@ -32,6 +32,22 @@ binary_sensor.aeotec_zw100_multisensor_6_sensor_7_0:
 sensor.aeotec_zw100_multisensor_6_burglar_7_10:
   friendly_name: Living room motion sensor
   icon: mdi:run
+sensor.aeotec_zw100_multisensor_6_temperature_11_1:
+  friendly_name: Hallway Temperature
+sensor.aeotec_zw100_multisensor_6_relative_humidity_11_5:
+  friendly_name: Hallway Humidity
+  icon: mdi:water
+sensor.aeotec_zw100_multisensor_6_luminance_11_3:
+  friendly_name: Hallway Luminance
+  icon: mdi:weather-sunny
+sensor.aeotec_zw100_multisensor_6_ultraviolet_11_27:
+  friendly_name: Hallway Ultraviolet
+  icon: mdi:sunglasses
+binary_sensor.aeotec_zw100_multisensor_6_sensor_11_0:
+  friendly_name: Hallway sensor
+sensor.aeotec_zw100_multisensor_6_burglar_11_10:
+  friendly_name: Hallway motion sensor
+  icon: mdi:run
 sensor.aeotec_zw100_multisensor_6_temperature_12_1:
   friendly_name: Bedroom Temperature
 sensor.aeotec_zw100_multisensor_6_relative_humidity_12_5:
@@ -217,4 +233,12 @@ sensor.aeotec_zw100_multisensor_6_alarm_level_12_1:
 sensor.aeotec_zw100_multisensor_6_alarm_type_12_0:
   hidden: true
 sensor.aeotec_zw100_multisensor_6_sourcenodeid_12_2:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_heat_10_7:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_heat_8_7:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_power_management_10_11:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_power_management_8_11:
   hidden: true
