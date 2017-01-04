@@ -168,3 +168,25 @@ script.car_heater_delay:
   hidden: true
 sensor.plex_spy:
   hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_alarm_level_10_1:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_alarm_level_8_1:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_alarm_type_10_0:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_alarm_type_8_0:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_exporting_10_32:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_exporting_8_32:
+  hidden: true
+sensor.fibaro_system_fgrgbwm441_rgbw_controller_exporting_9_32:
+  hidden: true  
+sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_10_2:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_8_2:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_system_10_12:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_system_8_12:
+  hidden: true
