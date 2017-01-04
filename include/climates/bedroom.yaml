@@ -4,6 +4,6 @@ heater: switch.bedroom_thermostat
 target_sensor: sensor.aeotec_zw100_multisensor_6_temperature_12_1
 min_temp: 18
 max_temp: 35
-target_temp: 26
+target_temp: 24
 min_cycle_duration:
   seconds: 5
