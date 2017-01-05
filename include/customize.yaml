@@ -209,6 +209,8 @@ script.turn_tv_on:
   hidden: true
 script.car_heater_delay:
   hidden: true
+script.bathroom_fan:
+  hidden: true
 sensor.plex_spy:
   hidden: true
 sensor.fibaro_system_fgd212_dimmer_2_alarm_level_10_1:
