@@ -92,7 +92,12 @@ sensor.fibaro_system_fgrgbwm441_rgbw_controller_energy_9_0:
   friendly_name: Kitchen RGB lights energy consumption
 sensor.fibaro_system_fgd212_dimmer_2_energy_10_0:
   friendly_name: Living room table RGB energy consumption
-
+sensor.fibaro_system_fgd212_dimmer_2_power_14_4:
+  friendly_name: Hallway light power
+sensor.fibaro_system_fgd212_dimmer_2_power_14_8:
+  friendly_name: Hallway light power
+sensor.fibaro_system_fgd212_dimmer_2_energy_14_0:
+  friendly_name: Hallway energy consumption
 # Climate
 
 # Device tracker
@@ -108,6 +113,8 @@ light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2:
   friendly_name: Kitchen lights
 light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6:
   friendly_name: Kitchen working lights
+light.fibaro_system_fgd212_dimmer_2_level_14_0:
+  friendly_name: Hallway lights
 
 # Covers
 cover.livingroom_windowshade:
@@ -241,4 +248,24 @@ sensor.fibaro_system_fgd212_dimmer_2_heat_8_7:
 sensor.fibaro_system_fgd212_dimmer_2_power_management_10_11:
   hidden: true
 sensor.fibaro_system_fgd212_dimmer_2_power_management_8_11:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_alarm_level_14_1:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_14_2:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_system_14_12:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_alarm_type_14_0:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_exporting_14_32:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_heat_14_7:
+  hidden: true
+sensor.fibaro_system_fgd212_dimmer_2_power_management_14_11:
+  hidden: true
+light.fibaro_system_fgd212_dimmer_2_level_14_0_2:
+  hidden: true
+light.fibaro_system_fgd212_dimmer_2_step_size_14_6:
+  hidden: true
+light.fibaro_system_fgd212_dimmer_2_step_size_14_6_2:
   hidden: true
