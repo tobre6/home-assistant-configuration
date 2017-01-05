@@ -8,3 +8,6 @@ entities:
     state: on
   light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6: #kithcen working lights
     state: on
+  light.fibaro_system_fgd212_dimmer_2_level_14_0: #hallway lights
+    state: on
+    brightness: 20
