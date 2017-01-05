@@ -30,22 +30,22 @@
     service: light.turn_on
     entity_id: light.bedroom_reading
 
-- alias: Turn on bedroom ceiling light when motion detected
-  hide_entity: true
-  trigger:
-    - platform: state
-      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
-      to: '8'
-  action:
-    service: script.turn_on
-    entity_id: script.bedroom_timed_light
+# - alias: Turn on bedroom ceiling light when motion detected
+#  hide_entity: true
+#  trigger:
+#    - platform: state
+#      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
+#      to: '8'
+#  action:
+#    service: script.turn_on
+#    entity_id: script.bedroom_timed_light
 
-- alias: Turn off bedroom ceiling light when motion ends
-  hide_entity: true
-  trigger:
-    - platform: state
-      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
-      to: '0'
-  action:
-    service: script.turn_on
-    entity_id: script.bedroom_ceiling_light_delay
+#- alias: Turn off bedroom ceiling light when motion ends
+#  hide_entity: true
+#  trigger:
+#    - platform: state
+#      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
+#      to: '0'
+#  action:
+#    service: script.turn_on
+#    entity_id: script.bedroom_ceiling_light_delay
