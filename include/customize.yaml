@@ -153,7 +153,9 @@ switch.car_heater:
   icon: mdi:fan
 switch.tv_switch:
   icon: mdi:television
-
+switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_13_0:
+  friendly_name: Bathroom fan
+  icon: mdi:fan
 # Media players
 
 # Scripts
@@ -162,6 +164,8 @@ switch.tv_switch:
 switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0_2:
   hidden: true
 switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0_2:
+  hidden: true
+switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_13_0_2:
   hidden: true
 sensor.aeotec_zw100_multisensor_6_alarm_level_3_1:
   hidden: true
