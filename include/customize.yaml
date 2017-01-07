@@ -203,6 +203,10 @@ script.bathroom_light_delay:
   hidden: true
 script.bedroom_light_delay:
   hidden: true
+script.bedroom_ceiling_light_delay:
+  hidden: true
+script.bedroom_timed_light:
+  hidden: true
 script.front_door_lock:
   hidden: true
 script.turn_tv_on:
