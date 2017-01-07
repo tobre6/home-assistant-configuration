@@ -7,13 +7,13 @@ bathroom_timed_light:
     - alias: Turn off old timer
       service: script.turn_off
       entity_id: script.bathroom_light_delay
-      
+
 bathroom_light_delay:
   alias: Automatically turn off bathroom light after n minutes
   sequence:
     - alias: Wait n minutes
       delay:
-        minutes: 1
+        minutes: 3
     - condition: state
       entity_id: sensor.aeotec_zw100_multisensor_6_burglar_3_10
       state: '0'
