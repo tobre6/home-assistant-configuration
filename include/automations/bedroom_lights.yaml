@@ -30,6 +30,21 @@
     service: light.turn_on
     entity_id: light.bedroom_reading
 
+- alias: Turn ceiling lights on when motion is detected
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
+      to: '8'
+  condition:
+    condition: numeric_state
+    entity_id: sensor.aeotec_zw100_multisensor_6_luminance_12_3
+    below: '2'
+  action:
+    service: switch.turn_on
+    entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0
+
+
 # - alias: Turn on bedroom ceiling light when motion detected
 #  hide_entity: true
 #  trigger:
