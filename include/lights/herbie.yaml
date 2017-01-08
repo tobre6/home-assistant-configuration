@@ -1,0 +1,9 @@
+platform: mqtt
+name: "Herbie light"
+command_topic: "home/wifiswitch/switch5"
+state_topic: "home/wifiswitch/switch5/status"
+payload_on: "on"
+payload_off: "off"
+optimistic: false
+qos: 1
+retain: true
