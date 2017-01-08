@@ -6,3 +6,11 @@
   picture:
   track: true
   vendor:
+
+tonis_iphone:
+  hide_if_away: false
+  mac:
+  name: tonis
+  picture:
+  track: true
+  vendor:

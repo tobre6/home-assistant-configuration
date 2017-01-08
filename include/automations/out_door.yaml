@@ -5,12 +5,12 @@
     entity_id: device_tracker.016edfbd80af4e688a07f4b06da9be37
     from: 'not_home'
     to: 'home'
-  condition:
-    condition: state
-    entity_id: device_tracker.016edfbd80af4e688a07f4b06da9be37
-    state: 'home'
-    for:
-      minutes: 10
+#  condition:
+#    condition: state
+#    entity_id: device_tracker.016edfbd80af4e688a07f4b06da9be37
+#    state: 'home'
+#    for:
+#      minutes: 10
   action:
     service: lock.unlock
     entity_id: lock.out_door
