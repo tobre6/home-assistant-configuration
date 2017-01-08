@@ -1,0 +1,26 @@
+- alias: Turn on hallway nightlight when motion detected
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_11_10
+      to: '8'
+  condition:
+    condition: numeric_state
+    entity_id: sensor.aeotec_zw100_multisensor_6_luminance_11_3
+    below: '2'
+  action:
+    service: light.turn_on
+    entity_id: light.hallway_night_light
+    data:
+      brightness: 11
+      rgb_color: [11, 3, 0]
+
+- alias: Turn off hallway nightlight when motion ends
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_11_10
+      to: '0'
+  action:
+    service: light.turn_off
+    entity_id: light.hallway_night_light

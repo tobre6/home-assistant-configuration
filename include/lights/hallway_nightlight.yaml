@@ -1,0 +1,15 @@
+platform: mqtt
+name: "Hallway night light"
+state_topic: "home/hallway-nightlight/status"
+command_topic: "home/hallway-nightlight/switch"
+brightness_state_topic: "home/hallway-nightlight/brightness/status"
+brightness_command_topic: "home/hallway-nightlight/brightness/set"
+rgb_state_topic: "home/hallway-nightlight/rgb/status"
+rgb_command_topic: "home/hallway-nightlight/rgb/set"
+#    state_value_template: "{{ value_json.state }}"
+#    brightness_value_template: "{{ value_json.brightness }}"
+#    rgb_value_template: "{{ value_json.rgb | join(',') }}"
+qos: 0
+payload_on: "on"
+payload_off: "off"
+optimistic: false

@@ -10,5 +10,6 @@ hallway:
     - sensor.aeotec_zw100_multisensor_6_burglar_11_10
     - lock.out_door
     - light.fibaro_system_fgd212_dimmer_2_level_14_0
+    - light.hallway_night_light
     - climate.hallway_climate
     - switch.hallway_thermostat
