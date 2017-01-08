@@ -8,6 +8,17 @@
     service: light.turn_on
     entity_id: light.herbie_light
 
+- alias: Turn on herbie lights when kitchen lights is fully bright
+  hide_entity: true
+  trigger:
+    - platform: numeric_state
+      value_template: '{{ state.attributes.brightness }}'
+      entity_id: light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6
+      above: 250
+  action:
+    service: light.turn_on
+    entity_id: light.herbie_light
+
 - alias: Turn off herbie lights when living room has something on
   hide_entity: true
   trigger:
@@ -24,6 +35,27 @@
     - platform: state
       entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
       to: '8'
+  action:
+    service: light.turn_off
+    entity_id: light.herbie_light
+
+- alias: Turn off herbie lights when kitchen lights is dimmed
+  hide_entity: true
+  trigger:
+    - platform: numeric_state
+      value_template: '{{ state.attributes.brightness }}'
+      entity_id: light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6
+      below: 250
+  action:
+    service: light.turn_off
+    entity_id: light.herbie_light
+
+- alias: Turn off herbie lights when kitchen lights is off
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6
+      to: 'off'
   action:
     service: light.turn_off
     entity_id: light.herbie_light
