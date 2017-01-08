@@ -8,7 +8,7 @@
     service: light.turn_on
     entity_id: light.herbie_light
 
-- alias: Turn off herbie lights when living room has lights on
+- alias: Turn off herbie lights when living room has something on
   hide_entity: true
   trigger:
     - platform: state

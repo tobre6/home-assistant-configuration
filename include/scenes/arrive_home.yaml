@@ -14,3 +14,5 @@ entities:
   light.fibaro_system_fgd212_dimmer_2_level_14_0: #hallway lights
     state: on
     brightness: 5
+  light.herbie_light:
+    state: off
