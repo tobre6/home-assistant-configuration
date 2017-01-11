@@ -10,3 +10,4 @@ zwcfg_0xeca9219c.xml
 secrets.yaml
 pyozw.sqlite
 .sync-config.cson
+.remote-sync.json
