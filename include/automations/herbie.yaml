@@ -39,6 +39,19 @@
     service: light.turn_off
     entity_id: light.herbie_light
 
+- alias: Turn on herbie lights when bedroom action ends
+  hide_entity: true
+  trigger:
+    - platform: state
+      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
+      to: '0'
+  condition:
+    condition: time
+    after: '02:00:00'
+  action:
+    service: light.turn_on
+    entity_id: light.herbie_light
+
 - alias: Turn off herbie lights when kitchen lights is dimmed
   hide_entity: true
   trigger:

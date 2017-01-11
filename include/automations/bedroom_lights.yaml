@@ -43,28 +43,8 @@
         entity_id: sensor.aeotec_zw100_multisensor_6_luminance_12_3
         below: '2'
       - condition: time
-        before: '23:00:00'
+        before: '21:00:00'
+        after: '09:00:00'
   action:
     service: switch.turn_on
     entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0
-
-
-# - alias: Turn on bedroom ceiling light when motion detected
-#  hide_entity: true
-#  trigger:
-#    - platform: state
-#      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
-#      to: '8'
-#  action:
-#    service: script.turn_on
-#    entity_id: script.bedroom_timed_light
-
-#- alias: Turn off bedroom ceiling light when motion ends
-#  hide_entity: true
-#  trigger:
-#    - platform: state
-#      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
-#      to: '0'
-#  action:
-#    service: script.turn_on
-#    entity_id: script.bedroom_ceiling_light_delay
