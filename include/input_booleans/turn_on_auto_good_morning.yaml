@@ -1,0 +1,4 @@
+turn_on_auto_good_morning:
+  name: Turn on auto good morning
+  initial: on
+  icon: mdi:wather-sunset-up
