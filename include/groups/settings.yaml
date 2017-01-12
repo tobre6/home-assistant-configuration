@@ -4,4 +4,5 @@ settings:
   entities:
     - input_boolean.turn_wakeup_lights_on
     - input_boolean.turn_car_heater_automation_on
+    - input_boolean.turn_on_auto_good_morning
     - switch.niito_schedule
