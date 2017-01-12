@@ -3,7 +3,7 @@ car_heater_delay:
   sequence:
     - alias: Wait n minutes
       delay:
-        minutes: 15
+        minutes: 20
     - alias: Turn off
       service: switch.turn_off
       entity_id: switch.car_heater
