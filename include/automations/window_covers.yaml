@@ -1,0 +1,19 @@
+- alias: Close window covers
+  hide_entity: true
+  trigger:
+    - platform: sun
+      event: sunset
+      offset: '+01:00:00'
+  action:
+    service: cover.close_cover
+    entity_id: cover.livingroom_windowshade
+
+- alias: Open window covers
+  hide_entity: true
+  trigger:
+    - platform: sun
+      event: sunrise
+      offset: '-01:00:00'
+  action:
+    service: cover.open_cover
+    entity_id: cover.livingroom_windowshade
