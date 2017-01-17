@@ -4,7 +4,7 @@ turn_tv_on:
     - alias: AppleTV on
       service: shell_command.turn_apple_tv_on
     - delay:
-        seconds: 60
+        seconds: 80
     - alias: Change source to TV
       service: media_player.select_source
       data:
