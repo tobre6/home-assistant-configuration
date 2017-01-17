@@ -1,7 +1,7 @@
 platform: mqtt
 name: "Livingroom windowshade"
-state_topic: "home/windowshades"
-command_topic: "home/windowshades"
+state_topic: "home/windowshades/window1"
+command_topic: "home/windowshades/window1"
 payload_open: "open"
 payload_close: "close"
 payload_stop: "stop"
@@ -9,5 +9,5 @@ state_open: "open"
 state_closed: "close"
 optimistic: false
 qos: 0
-retain: false
+retain: true
 #    value_template: '{{ value.x }}'
