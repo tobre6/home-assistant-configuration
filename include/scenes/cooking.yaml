@@ -2,4 +2,4 @@ name: Cooking time
 entities:
   light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6: #kithcen working lights
     state: on
-    brightness: 100
+    brightness: 255
