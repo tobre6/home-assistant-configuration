@@ -30,8 +30,8 @@
       to: '0'
   condition:
     condition: time
-    after: '01:00:00'
-    before: '08:00:00'
+    after: '02:00:00'
+    before: '05:00:00'
   action:
     service: light.turn_on
     entity_id: light.herbie_light
