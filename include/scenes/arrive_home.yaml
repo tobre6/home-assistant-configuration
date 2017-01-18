@@ -11,3 +11,7 @@ entities:
   light.fibaro_system_fgd212_dimmer_2_level_14_0: #hallway lights
     state: on
     brightness: 3
+  light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2: #kitchen lights
+    state: on
+    brightness: 28
+    rgb_color: 4,18,20 #light blue
