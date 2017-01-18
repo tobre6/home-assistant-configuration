@@ -24,3 +24,5 @@ entities:
     state: off
   light.hobby_room_table_light:
     state: off
+  light.hallway_night_light:
+    state: off

@@ -26,3 +26,5 @@ entities:
     state: off
   light.herbie_light:
     state: on
+  light.hallway_night_light:
+    state: off
