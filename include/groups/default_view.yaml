@@ -1,10 +1,11 @@
-#default_view:
-#  view: yes
-#  entities:
-#    - group.living_room
-#    - group.hobby_room
-#    - group.hallway
-#   - group.bedroom
-#    - group.scene
-#    - group.bathroom
-#    - group.other
+default_view:
+  view: yes
+  entities:
+    - group.living_room
+    - group.hobby_room
+    - group.hallway
+    - group.bedroom
+    - group.scene
+    - group.bathroom
+    - group.other
+    - group.weather
