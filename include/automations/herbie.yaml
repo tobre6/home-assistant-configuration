@@ -7,7 +7,7 @@
   condition:
     condition: time
     after: '02:00:00'
-    brefore: '08:00:00'
+    before: '08:00:00'
   action:
     service: light.turn_on
     entity_id: light.herbie_light
