@@ -18,3 +18,4 @@ living_room:
     - cover.livingroom_windowshade
     - climate.living_room_climate
     - switch.living_room_thermostat
+    - light.living_room

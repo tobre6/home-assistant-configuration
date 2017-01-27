@@ -110,11 +110,13 @@ light.fibaro_system_fgd212_dimmer_2_level_8_0:
 light.fibaro_system_fgd212_dimmer_2_level_10_0:
   friendly_name: Living room table
 light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2:
-  friendly_name: Kitchen lights
+  friendly_name: Kitchen light
 light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6:
-  friendly_name: Kitchen working lights
+  friendly_name: Kitchen working light
 light.fibaro_system_fgd212_dimmer_2_level_14_0:
-  friendly_name: Hallway lights
+  friendly_name: Hallway light
+light.living_room:
+  friendly_name: Living room light
 
 # Covers
 cover.livingroom_windowshade:
@@ -278,4 +280,10 @@ light.fibaro_system_fgd212_dimmer_2_level_14_0_2:
 light.fibaro_system_fgd212_dimmer_2_step_size_14_6:
   hidden: true
 light.fibaro_system_fgd212_dimmer_2_step_size_14_6_2:
+  hidden: true
+light.hue_color_lamp_1:
+  hidden: true
+light.hue_color_lamp_2:
+  hidden: true
+light.hue_color_lamp_3:
   hidden: true
