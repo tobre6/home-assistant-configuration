@@ -11,3 +11,4 @@ secrets.yaml
 pyozw.sqlite
 .sync-config.cson
 .remote-sync.json
+phue.conf

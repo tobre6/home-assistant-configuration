@@ -14,3 +14,19 @@ tonis_iphone:
   picture:
   track: true
   vendor:
+
+beacon_ibeacon:
+  hide_if_away: false
+  mac:
+  name: ibeacon
+  picture:
+  track: true
+  vendor:
+
+user_tonis:
+  hide_if_away: false
+  mac:
+  name: user
+  picture:
+  track: true
+  vendor:
