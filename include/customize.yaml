@@ -1,6 +1,4 @@
 # Sensors
-sensor.aeotec_zw100_multisensor_6_temperature_3_1:
-  friendly_name: Bathroom Temperature
 sensor.aeotec_zw100_multisensor_6_relative_humidity_3_5:
   friendly_name: Bathroom Humidity
   icon: mdi:water
@@ -16,8 +14,6 @@ sensor.aeotec_zw100_multisensor_6_burglar_3_10:
   friendly_name: Bathroom motion sensor
   icon: mdi:run
   sensor_class: motion
-sensor.aeotec_zw100_multisensor_6_temperature_7_1:
-  friendly_name: Living room Temperature
 sensor.aeotec_zw100_multisensor_6_relative_humidity_7_5:
   friendly_name: Living room Humidity
   icon: mdi:water
@@ -32,8 +28,6 @@ binary_sensor.aeotec_zw100_multisensor_6_sensor_7_0:
 sensor.aeotec_zw100_multisensor_6_burglar_7_10:
   friendly_name: Living room motion sensor
   icon: mdi:run
-sensor.aeotec_zw100_multisensor_6_temperature_11_1:
-  friendly_name: Hallway Temperature
 sensor.aeotec_zw100_multisensor_6_relative_humidity_11_5:
   friendly_name: Hallway Humidity
   icon: mdi:water
@@ -48,8 +42,6 @@ binary_sensor.aeotec_zw100_multisensor_6_sensor_11_0:
 sensor.aeotec_zw100_multisensor_6_burglar_11_10:
   friendly_name: Hallway motion sensor
   icon: mdi:run
-sensor.aeotec_zw100_multisensor_6_temperature_12_1:
-  friendly_name: Bedroom Temperature
 sensor.aeotec_zw100_multisensor_6_relative_humidity_12_5:
   friendly_name: Bedroom Humidity
   icon: mdi:water
@@ -142,14 +134,6 @@ switch.niito_schedule:
   friendly_name: Neato schedule
   icon: mdi:calendar-multiple-check
 switch.hobby_room_thermostat:
-  icon: mdi:oil-temperature
-switch.bedroom_thermostat:
-  icon: mdi:oil-temperature
-switch.living_room_thermostat:
-  icon: mdi:oil-temperature
-switch.bathroom_thermostat:
-  icon: mdi:oil-temperature
-switch.hallway_thermostat:
   icon: mdi:oil-temperature
 switch.car_heater:
   icon: mdi:fan
@@ -286,4 +270,24 @@ light.hue_color_lamp_1:
 light.hue_color_lamp_2:
   hidden: true
 light.hue_color_lamp_3:
+  hidden: true
+switch.bedroom_thermostat:
+  hidden: true
+switch.living_room_thermostat:
+  hidden: true
+switch.bathroom_thermostat:
+  hidden: true
+switch.hallway_thermostat:
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_temperature_3_1:
+  friendly_name: Bathroom Temperature
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_temperature_11_1:
+  friendly_name: Hallway Temperature
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_temperature_7_1:
+  friendly_name: Living room Temperature
+  hidden: true
+sensor.aeotec_zw100_multisensor_6_temperature_12_1:
+  friendly_name: Bedroom Temperature
   hidden: true
