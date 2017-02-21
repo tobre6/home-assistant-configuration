@@ -90,6 +90,15 @@ sensor.fibaro_system_fgd212_dimmer_2_power_14_8:
   friendly_name: Hallway light power
 sensor.fibaro_system_fgd212_dimmer_2_energy_14_0:
   friendly_name: Hallway energy consumption
+sensor.octoprint_actual_bed_temp:
+  homebridge_hidden: true
+sensor.octoprint_actual_tool0_temp:
+  homebridge_hidden: true
+sensor.octoprint_target_bed_temp:
+  homebridge_hidden: true
+sensor.octoprint_target_tool0_temp:
+  homebridge_hidden: true
+
 # Climate
 
 # Device tracker
