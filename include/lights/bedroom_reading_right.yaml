@@ -1,7 +1,7 @@
 platform: mqtt
 name: "Bedroom reading right"
-command_topic: "home/wifiswitch/switch1"
-state_topic: "home/wifiswitch/switch1/status"
+command_topic: "home/wifiswitch/switch2"
+state_topic: "home/wifiswitch/switch2/status"
 payload_on: "on"
 payload_off: "off"
 optimistic: false
