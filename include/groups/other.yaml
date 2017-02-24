@@ -3,5 +3,4 @@ other:
   control: hidden
   entities:
     - switch.car_heater
-    - light.christmas_lights
     - light.herbie_light

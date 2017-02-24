@@ -1,5 +1,5 @@
 platform: mqtt
-name: "Christmas lights"
+name: "Bedroom reading left"
 command_topic: "home/wifiswitch/switch2"
 state_topic: "home/wifiswitch/switch2/status"
 payload_on: "on"

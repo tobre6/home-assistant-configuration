@@ -9,6 +9,7 @@ bedroom:
     - binary_sensor.aeotec_zw100_multisensor_6_sensor_12_0
     - sensor.aeotec_zw100_multisensor_6_burglar_12_10
     - switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0
-    - light.bedroom_reading
+    - light.bedroom_reading_left
+    - light.bedroom_reading_right
     - climate.bedroom_climate
     - switch.bedroom_thermostat
