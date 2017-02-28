@@ -1,5 +1,4 @@
-- alias: Close window covers
-  hide_entity: true
+- alias: Turn on automatically close window covers
   trigger:
     - platform: sun
       event: sunset
@@ -8,8 +7,7 @@
     service: cover.close_cover
     entity_id: cover.livingroom_windowshade
 
-- alias: Open window covers
-  hide_entity: true
+- alias: Turn on automatically open window covers
   trigger:
     - platform: sun
       event: sunrise

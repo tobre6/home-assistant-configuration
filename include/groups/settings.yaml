@@ -6,3 +6,5 @@ settings:
     - input_boolean.turn_car_heater_automation_on
     - input_boolean.turn_on_auto_good_morning
     - switch.niito_schedule
+    - automation.turn_on_automatically_open_window_covers
+    - automation.turn_on_automatically_close_window_covers
