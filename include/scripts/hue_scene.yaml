@@ -1,0 +1,6 @@
+hue_on:
+  sequence:
+    - service: light.hue_activate_scene
+      data:
+        group_name: "Living room"
+        scene_name: "Arctic aurora"

@@ -1,0 +1,9 @@
+platform: mqtt
+name: "Christmas lights"
+command_topic: "home/wifiswitch/switch2"
+state_topic: "home/wifiswitch/switch2/status"
+payload_on: "on"
+payload_off: "off"
+optimistic: false
+qos: 1
+retain: true
