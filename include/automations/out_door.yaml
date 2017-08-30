@@ -1,4 +1,5 @@
 - alias: Unlock door when getting home
+  initial_state: true
   hide_entity: true
   trigger:
     platform: state
@@ -17,6 +18,7 @@
 
 
 - alias: Lock out door after 30 seconds
+  initial_state: true
   hide_entity: true
   trigger:
     - platform: state

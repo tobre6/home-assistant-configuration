@@ -2,16 +2,16 @@ name: Arrive home
 entities:
   switch.tv_switch:
     state: on
-  light.fibaro_system_fgd212_dimmer_2_level_8_0: # living room ceiling
+  light.living_room_ceiling_light:
     state: on
     brightness: 3
-  light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6: #kithcen working lights
+  light.kitchen_rgbw_working_lights:
     state: on
     brightness: 10
-  light.fibaro_system_fgd212_dimmer_2_level_14_0: #hallway lights
+  light.hallway_lights_ceiling:
     state: on
     brightness: 3
-  light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2: #kitchen lights
+  light.kitchen_rgbw_rgbw:
     state: on
     brightness: 28
     rgb_color: 4,18,20 #light blue

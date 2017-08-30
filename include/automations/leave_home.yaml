@@ -1,0 +1,14 @@
+- alias: Turn everything off when leaving home
+  initial_state: true
+  trigger:
+    platform: state
+    entity_id: device_tracker.tniss_phone, device_tracker.iphone
+    from: 'home'
+    to: 'not_home'
+    #for:
+    #  hours: 0
+    #  minutes: 1
+    #  seconds: 0
+  action:
+    service: scene.turn_on
+    entity_id: scene.leave_home

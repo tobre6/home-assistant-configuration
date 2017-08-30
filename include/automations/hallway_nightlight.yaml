@@ -1,4 +1,5 @@
 - alias: Turn on hallway nightlight when motion detected
+  initial_state: true
   hide_entity: true
   trigger:
     - platform: state
@@ -16,6 +17,7 @@
       rgb_color: [11, 3, 0]
 
 - alias: Turn off hallway nightlight when motion ends
+  initial_state: true
   hide_entity: true
   trigger:
     - platform: state

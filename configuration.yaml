@@ -9,7 +9,7 @@ homeassistant:
   customize: !include include/customize.yaml
 
 frontend:
-  
+
 http:
    api_password: !secret api_password
    ip_ban_enabled: true
@@ -27,13 +27,22 @@ sun:
 
 updater:
 
+ios:
+
 zwave: !include include/zwave.yaml
 
 mqtt: !include include/mqtt.yaml
 
-octoprint:
-  host: 192.168.1.160
-  api_key: !secret octoprint_api_key
+#apple_tv:
+#  - host: 192.168.1.190
+#    login_id: 00000000-22f8-d5d1-1623-955605e5410b
+#    name: Apple TV
+#    start_off: false
+#    credentials: 7B9CF6704A657782:727C68D5345687365781D52C675A4CE49FFCFF28D498720DA920E8FE7E871444
+
+#octoprint:
+#  host: 192.168.1.160
+#  api_key: !secret octoprint_api_key
 
 neato:
   username: !secret neato_username
@@ -42,10 +51,10 @@ neato:
 switch: !include_dir_list include/switches
 media_player: !include_dir_list include/media_players
 light: !include_dir_list include/lights
-lock: !include_dir_list include/locks
+#lock: !include_dir_list include/locks
 climate: !include_dir_list include/climates
-cover: !include_dir_list include/covers
-device_tracker: !include_dir_list include/device_trackers
+#cover: !include_dir_list include/covers
+#device_tracker: !include_dir_list include/device_trackers
 shell_command: !include include/shell_commands.yaml
 scene: !include_dir_list include/scenes
 automation: !include_dir_merge_list include/automations
@@ -53,5 +62,5 @@ script: !include_dir_merge_named include/scripts
 zone: !include_dir_list include/zones
 group: !include_dir_merge_named include/groups
 sensor: !include_dir_merge_list include/sensors
-camera: !include include/cameras.yaml
+#camera: !include include/cameras.yaml
 input_boolean: !include_dir_merge_named include/input_booleans

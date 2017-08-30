@@ -1,32 +1,17 @@
-
-016edfbd80af4e688a07f4b06da9be37:
+tniss_phone:
   hide_if_away: false
+  icon:
   mac:
-  name: Tõnis
+  name: Tõnis iPhone
   picture:
   track: true
   vendor:
 
-tonis_iphone:
+iphone:
   hide_if_away: false
+  icon:
   mac:
-  name: tonis
-  picture:
-  track: true
-  vendor:
-
-beacon_ibeacon:
-  hide_if_away: false
-  mac:
-  name: ibeacon
-  picture:
-  track: true
-  vendor:
-
-user_tonis:
-  hide_if_away: false
-  mac:
-  name: user
+  name: Liisi iPhone
   picture:
   track: true
   vendor:

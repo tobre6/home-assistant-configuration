@@ -1,0 +1,8 @@
+scene:
+  name: Scene
+  entities:
+    - scene.arrive_home
+    - scene.cooking_time
+    - scene.good_morning
+    - scene.good_night
+    - scene.leave_home

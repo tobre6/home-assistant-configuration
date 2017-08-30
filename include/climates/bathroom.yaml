@@ -1,7 +1,7 @@
 platform: generic_thermostat
 name: "Bathroom climate"
 heater: switch.bathroom_thermostat
-target_sensor: sensor.aeotec_zw100_multisensor_6_temperature_3_1
+target_sensor: sensor.bathroom_multisensor_temperature
 min_temp: 18
 max_temp: 35
 target_temp: 26

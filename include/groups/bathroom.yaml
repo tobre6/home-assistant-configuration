@@ -2,14 +2,12 @@ bathroom:
   name: Bathroom
   control: hidden
   entities:
-    - sensor.aeotec_zw100_multisensor_6_temperature_3_1
-    - sensor.aeotec_zw100_multisensor_6_relative_humidity_3_5
-    - sensor.aeotec_zw100_multisensor_6_luminance_3_3
-    - sensor.aeotec_zw100_multisensor_6_ultraviolet_3_27
-    - binary_sensor.aeotec_zw100_multisensor_6_sensor_3_0
-    - sensor.aeotec_zw100_multisensor_6_burglar_3_10
-    - switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0
-    - switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0_2
-    - switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_13_0
     - climate.bathroom_climate
-    - switch.bathroom_thermostat
+    - sensor.bathroom_multisensor_relative_humidity
+    - sensor.bathroom_multisensor_luminance
+    - sensor.bathroom_multisensor_ultraviolet
+    - binary_sensor.bathroom_multisensor_sensor
+    - sensor.bathroom_multisensor_burglar
+    - switch.bathroom_lights_ceiling
+    - switch.bathroom_lights_wall
+    - switch.bathroom_fan_ceiling

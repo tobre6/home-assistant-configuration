@@ -2,12 +2,12 @@ name: Good morning
 entities:
   switch.tv_switch:
     state: on
-  light.fibaro_system_fgd212_dimmer_2_level_8_0: # living room ceiling
+  light.living_room_ceiling_light:
     state: on
     brightness: 255
-  light.fibaro_system_fgd212_dimmer_2_level_10_0: #living room table
+  light.living_room_table_lights_level:
     state: on
     brightness: 255
-  light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6: #kithcen working lights
+  light.kitchen_rgbw_working_lights:
     state: on
     brightness: 255

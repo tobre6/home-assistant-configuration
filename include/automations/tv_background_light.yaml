@@ -1,22 +1,24 @@
 - alias: Turn on TV background light after sunset when TV is on
+  initial_state: true
   hide_entity: true
   trigger:
     platform: state
     entity_id: switch.tv_switch
-    state: 'on'
+    to: 'on'
   condition:
     condition: sun
     after: sunset
   action:
     service: light.turn_on
     entity_id: light.tv_background_light
-     
+
 - alias: Turn off TV background light when tv is turned off
+  initial_state: true
   hide_entity: true
   trigger:
     platform: state
     entity_id: switch.tv_switch
-    state: 'off'
+    to: 'off'
   action:
     service: light.turn_off
     entity_id: light.tv_background_light

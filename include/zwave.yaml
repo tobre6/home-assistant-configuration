@@ -1,6 +1,6 @@
 usb_path: /dev/ttyACM0
-config_path: /usr/local/share/python-openzwave/config
 polling_interval: 30000
+new_entity_ids: true
 #customize:
 #sensor.aeotec_zw100_multisensor_6_temperature_3_1:
 #  polling_intensity: 1

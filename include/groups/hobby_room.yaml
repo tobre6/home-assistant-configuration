@@ -2,9 +2,10 @@ hobby_room:
   name: Hobby room
   control: hidden
   entities:
-    - switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0
+    - switch.hobby_room_lights_ceiling
     - light.hobby_room_table_light
     - switch.niito_clean
     - sensor.niito_status
     - sensor.niito_battery
     - switch.hobby_room_thermostat
+    - camera.niito_cleaning_map

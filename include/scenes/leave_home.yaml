@@ -1,32 +1,16 @@
 name: Leave home
 entities:
-  switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0:
+  switch.bathroom_fan_ceiling:
     state: off
-  switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0_2:
+  switch.bathroom_lights_ceiling:
     state: off
-  switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0:
+  switch.bathroom_lights_wall:
     state: off
-  switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0:
+  switch.bedroom_lights_ceiling:
+    state: off
+  switch.hobby_room_lights_ceiling:
     state: off
   switch.tv_switch:
     state: off
-  light.tv_background_light:
-    state: off
-  light.fibaro_system_fgd212_dimmer_2_level_8_0: #living room ceiling
-    state: off
-  light.fibaro_system_fgd212_dimmer_2_level_10_0: #living room table
-    state: off
-  light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2: #kitchen lights
-    state: off
-  light.bedroom_reading:
-    state: off
-  light.fibaro_system_fgd212_dimmer_2_level_14_0: #hallway lights
-    state: off
-  light.hobby_room_table_light:
-    state: off
-  light.herbie_light:
-    state: on
-  light.hallway_night_light:
-    state: off
-  light.living_room:
+  group.all_lights:
     state: off

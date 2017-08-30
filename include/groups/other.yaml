@@ -4,3 +4,4 @@ other:
   entities:
     - switch.car_heater
     - light.herbie_light
+    - light.christmas_lights

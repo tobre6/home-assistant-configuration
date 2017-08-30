@@ -1,0 +1,14 @@
+- alias: Arrive home
+  initial_state: true
+  trigger:
+    platform: state
+    entity_id: device_tracker.tniss_phone, device_tracker.iphone
+    from: 'not_home'
+    to: 'home'
+    #for:
+    #  hours: 0
+    #  minutes: 1
+    #  seconds: 0
+  action:
+    service: scene.turn_on
+    entity_id: scene.arrive_home

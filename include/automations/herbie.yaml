@@ -1,4 +1,5 @@
 - alias: Turn on herbie lights when everything in living room goes off
+  initial_state: false
   hide_entity: true
   trigger:
     - platform: state
@@ -13,6 +14,7 @@
     entity_id: light.herbie_light
 
 - alias: Turn on herbie lights when kitchen lights is fully bright
+  initial_state: false
   hide_entity: true
   trigger:
     - platform: numeric_state
@@ -24,6 +26,7 @@
     entity_id: light.herbie_light
 
 - alias: Turn on herbie lights when bedroom action ends
+  initial_state: false
   hide_entity: true
   trigger:
     - platform: state
@@ -38,6 +41,7 @@
     entity_id: light.herbie_light
 
 - alias: Turn off herbie lights when bedroom has action
+  initial_state: false
   hide_entity: true
   trigger:
     - platform: state
@@ -52,6 +56,7 @@
     entity_id: light.herbie_light
 
 - alias: Turn off herbie lights when kitchen lights is dimmed
+  initial_state: false
   hide_entity: true
   trigger:
     - platform: numeric_state
@@ -63,6 +68,7 @@
     entity_id: light.herbie_light
 
 - alias: Turn off herbie lights when kitchen lights is off
+  initial_state: false
   hide_entity: true
   trigger:
     - platform: state

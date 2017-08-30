@@ -1,4 +1,5 @@
 - alias: Turn ceiling lights on when motion is detected
+  initial_state: true
   hide_entity: true
   trigger:
     - platform: state
@@ -19,6 +20,7 @@
 
 
 - alias: Turn off bedroom light after n minutes
+  initial_state: true
   hide_entity: true
   trigger:
     - platform: state
@@ -32,10 +34,11 @@
       entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0
 
 - alias: Turn lights on at morning
+  initial_state: true
   hide_entity: true
   trigger:
     - platform: time
-      after: '8:30'
+      at: '8:30:00'
   condition:
     condition: and
     conditions:

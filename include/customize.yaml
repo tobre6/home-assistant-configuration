@@ -1,59 +1,59 @@
 # Sensors
-sensor.aeotec_zw100_multisensor_6_relative_humidity_3_5:
-  friendly_name: Bathroom Humidity
+sensor.bathroom_multisensor_relative_humidity:
+  friendly_name: Bathroom humidity
   icon: mdi:water
-sensor.aeotec_zw100_multisensor_6_luminance_3_3:
-  friendly_name: Bathroom Luminance
+sensor.bathroom_multisensor_luminance:
+  friendly_name: Bathroom luminance
   icon: mdi:weather-sunny
-sensor.aeotec_zw100_multisensor_6_ultraviolet_3_27:
-  friendly_name: Bathroom Ultraviolet
+sensor.bathroom_multisensor_ultraviolet:
+  friendly_name: Bathroom ultraviolet
   icon: mdi:sunglasses
-binary_sensor.aeotec_zw100_multisensor_6_sensor_3_0:
+binary_sensor.bathroom_multisensor_sensor:
   friendly_name: Bathroom sensor
-sensor.aeotec_zw100_multisensor_6_burglar_3_10:
+sensor.bathroom_multisensor_burglar:
   friendly_name: Bathroom motion sensor
   icon: mdi:run
   sensor_class: motion
-sensor.aeotec_zw100_multisensor_6_relative_humidity_7_5:
-  friendly_name: Living room Humidity
+sensor.living_room_multisensor_relative_humidity:
+  friendly_name: Living room humidity
   icon: mdi:water
-sensor.aeotec_zw100_multisensor_6_luminance_7_3:
-  friendly_name: Living room Luminance
+sensor.living_room_multisensor_luminance:
+  friendly_name: Living room luminance
   icon: mdi:weather-sunny
-sensor.aeotec_zw100_multisensor_6_ultraviolet_7_27:
-  friendly_name: Living room Ultraviolet
+sensor.living_room_multisensor_ultraviolet:
+  friendly_name: Living room ultraviolet
   icon: mdi:sunglasses
-binary_sensor.aeotec_zw100_multisensor_6_sensor_7_0:
+sensor.living_room_multisensor_sensor:
   friendly_name: Living room sensor
-sensor.aeotec_zw100_multisensor_6_burglar_7_10:
+sensor.living_room_multisensor_burglar:
   friendly_name: Living room motion sensor
   icon: mdi:run
-sensor.aeotec_zw100_multisensor_6_relative_humidity_11_5:
-  friendly_name: Hallway Humidity
+sensor.hallway_multisensor_humidity:
+  friendly_name: Hallway humidity
   icon: mdi:water
-sensor.aeotec_zw100_multisensor_6_luminance_11_3:
-  friendly_name: Hallway Luminance
+sensor.hallway_multisensor_luminance:
+  friendly_name: Hallway luminance
   icon: mdi:weather-sunny
-sensor.aeotec_zw100_multisensor_6_ultraviolet_11_27:
-  friendly_name: Hallway Ultraviolet
+sensor.hallway_multisensor_ultraviolet:
+  friendly_name: Hallway ultraviolet
   icon: mdi:sunglasses
-binary_sensor.aeotec_zw100_multisensor_6_sensor_11_0:
+binary_sensor.hallway_multisensor_sensor:
   friendly_name: Hallway sensor
-sensor.aeotec_zw100_multisensor_6_burglar_11_10:
+sensor.hallway_multisensor_burglar:
   friendly_name: Hallway motion sensor
   icon: mdi:run
-sensor.aeotec_zw100_multisensor_6_relative_humidity_12_5:
-  friendly_name: Bedroom Humidity
+sensor.bedroom_multisensor_relative_humidity:
+  friendly_name: Bedroom humidity
   icon: mdi:water
-sensor.aeotec_zw100_multisensor_6_luminance_12_3:
-  friendly_name: Bedroom Luminance
+sensor.bedroom_multisensor_luminance:
+  friendly_name: Bedroom luminance
   icon: mdi:weather-sunny
-sensor.aeotec_zw100_multisensor_6_ultraviolet_12_27:
-  friendly_name: Bedroom Ultraviolet
+sensor.bedroom_multisensor_ultraviolet:
+  friendly_name: Bedroom ultraviolet
   icon: mdi:sunglasses
-binary_sensor.aeotec_zw100_multisensor_6_sensor_12_0:
+binary_sensor.bedroom_multisensor_sensor:
   friendly_name: Bedroom sensor
-sensor.aeotec_zw100_multisensor_6_burglar_12_10:
+sensor.bedroom_multisensor_burglar:
   friendly_name: Bedroom motion sensor
   icon: mdi:run
 sensor.niito_battery:
@@ -66,30 +66,6 @@ sensor.speedtest_download:
   icon: mdi:download
 sensor.speedtest_upload:
   icon: mdi:upload
-sensor.fibaro_system_fgd212_dimmer_2_power_8_4:
-  friendly_name: Living room ceiling power
-sensor.fibaro_system_fgd212_dimmer_2_power_8_8:
-  friendly_name: Living room ceiling power
-sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_9_4:
-  friendly_name: Kitchen RGB lights power
-sensor.fibaro_system_fgrgbwm441_rgbw_controller_power_9_8:
-  friendly_name: Kitchen RGB lights power
-sensor.fibaro_system_fgd212_dimmer_2_power_10_4:
-  friendly_name: Living room table light power
-sensor.fibaro_system_fgd212_dimmer_2_power_10_8:
-  friendly_name: Living room table light power
-sensor.fibaro_system_fgd212_dimmer_2_energy_8_0:
-  friendly_name: Living room ceiling energy consumption
-sensor.fibaro_system_fgrgbwm441_rgbw_controller_energy_9_0:
-  friendly_name: Kitchen RGB lights energy consumption
-sensor.fibaro_system_fgd212_dimmer_2_energy_10_0:
-  friendly_name: Living room table RGB energy consumption
-sensor.fibaro_system_fgd212_dimmer_2_power_14_4:
-  friendly_name: Hallway light power
-sensor.fibaro_system_fgd212_dimmer_2_power_14_8:
-  friendly_name: Hallway light power
-sensor.fibaro_system_fgd212_dimmer_2_energy_14_0:
-  friendly_name: Hallway energy consumption
 sensor.octoprint_actual_bed_temp:
   homebridge_hidden: true
 sensor.octoprint_actual_tool0_temp:
@@ -99,6 +75,12 @@ sensor.octoprint_target_bed_temp:
 sensor.octoprint_target_tool0_temp:
   homebridge_hidden: true
 
+# Phone
+sensor.iphone_battery_state:
+  friendly_name: Liisi's Phone Battery State
+sensor.iphone_battery_level:
+  friendly_name: Liisi's Phone Battery Level
+
 # Climate
 
 # Device tracker
@@ -106,15 +88,15 @@ sensor.octoprint_target_tool0_temp:
 # Groups
 
 # Lights
-light.fibaro_system_fgd212_dimmer_2_level_8_0:
-  friendly_name: Living room ceiling
-light.fibaro_system_fgd212_dimmer_2_level_10_0:
-  friendly_name: Living room table
-light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_2:
-  friendly_name: Kitchen light
-light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_6:
-  friendly_name: Kitchen working light
-light.fibaro_system_fgd212_dimmer_2_level_14_0:
+light.living_room_ceiling_light:
+  friendly_name: Living room ceiling lights
+light.living_room_table_lights_level:
+  friendly_name: Living room table lights
+light.kitchen_rgbw_rgbw:
+  friendly_name: Kitchen lights
+light.kitchen_rgbw_working_lights:
+  friendly_name: Kitchen working lights
+light.hallway_lights_ceiling:
   friendly_name: Hallway light
 light.living_room:
   friendly_name: Living room light
@@ -124,16 +106,19 @@ cover.livingroom_windowshade:
   homebridge_cover_type: rollershutter
 
 # Switches
-switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0:
+switch.hobby_room_lights_ceiling:
   friendly_name: Hobby room ceiling
   icon: mdi:lightbulb
-switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0:
+switch.bathroom_lights_ceiling:
   friendly_name: Bathroom ceiling
   icon: mdi:lightbulb
-switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_5_0_2:
+switch.bathroom_lights_wall:
   friendly_name: Bathroom wall
   icon: mdi:lightbulb
-switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0:
+switch.bathroom_fan_ceiling:
+  friendly_name: Bathroom fan
+  icon: mdi:fan
+switch.bedroom_lights_ceiling:
   friendly_name: Bedroom ceiling
   icon: mdi:lightbulb
 switch.niito_clean:
@@ -142,161 +127,154 @@ switch.niito_clean:
 switch.niito_schedule:
   friendly_name: Neato schedule
   icon: mdi:calendar-multiple-check
-switch.hobby_room_thermostat:
-  icon: mdi:oil-temperature
 switch.car_heater:
   icon: mdi:fan
 switch.tv_switch:
   icon: mdi:television
-switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_13_0:
-  friendly_name: Bathroom fan
-  icon: mdi:fan
+
 # Media players
+configurator.plex_media_server:
+  hidden: true
 
 # Scripts
 
 # Hidden
-switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_4_0_2:
+light.kitchen_rgbw_level:
   hidden: true
-switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0_2:
+  homebridge_hidden: true
+light.kitchen_rgbw_level_2:
   hidden: true
-switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_13_0_2:
+  homebridge_hidden: true
+light.kitchen_rgbw_level_3:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_alarm_level_3_1:
+  homebridge_hidden: true
+light.kitchen_rgbw_level_4:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_alarm_type_3_0:
+  homebridge_hidden: true
+sensor.kitchen_rgbw_exporting:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_sourcenodeid_3_2:
+sensor.kitchen_rgbw_power_2:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_alarm_level_7_1:
+light.living_room_ceiling_level:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_alarm_type_7_0:
+  homebridge_hidden: true
+light.hallway_lights_level:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_sourcenodeid_7_2:
-  hidden: true
-light.fibaro_system_fgd212_dimmer_2_level_8_0_2:
-  hidden: true
-light.fibaro_system_fgd212_dimmer_2_step_size_8_6:
-  hidden: true
-light.fibaro_system_fgd212_dimmer_2_step_size_8_6_2:
-  hidden: true
-light.fibaro_system_fgd212_dimmer_2_step_size_10_6: # living room table
-  hidden: true
-light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0: # kitchen rgbw controller one channel
-  hidden: true
-light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_3: #kitchen R
-  hidden: true
-light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_4: #kitchen G
-  hidden: true
-light.fibaro_system_fgrgbwm441_rgbw_controller_level_9_0_5: #kitchen B
-  hidden: true
-switch.wenzhou_tkb_control_system_tz66d_dual_wall_switch_switch_2_0:
-  hidden: true
-script.bathroom_timed_light:
-  hidden: true
-script.bathroom_light_delay:
-  hidden: true
-script.bedroom_light_delay:
-  hidden: true
-script.bedroom_ceiling_light_delay:
-  hidden: true
-script.bedroom_timed_light:
-  hidden: true
-script.front_door_lock:
-  hidden: true
-script.turn_tv_on:
-  hidden: true
-script.car_heater_delay:
-  hidden: true
-script.bathroom_fan:
-  hidden: true
-sensor.plex_spy:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_alarm_level_10_1:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_alarm_level_8_1:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_alarm_type_10_0:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_alarm_type_8_0:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_exporting_10_32:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_exporting_8_32:
-  hidden: true
-sensor.fibaro_system_fgrgbwm441_rgbw_controller_exporting_9_32:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_10_2:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_8_2:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_system_10_12:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_system_8_12:
-  hidden: true
-sensor.aeotec_zw100_multisensor_6_alarm_level_11_1:
-  hidden: true
-sensor.aeotec_zw100_multisensor_6_alarm_type_11_0:
-  hidden: true
-sensor.aeotec_zw100_multisensor_6_sourcenodeid_11_2:
-  hidden: true
-sensor.aeotec_zw100_multisensor_6_alarm_level_12_1:
-  hidden: true
-sensor.aeotec_zw100_multisensor_6_alarm_type_12_0:
-  hidden: true
-sensor.aeotec_zw100_multisensor_6_sourcenodeid_12_2:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_heat_10_7:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_heat_8_7:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_power_management_10_11:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_power_management_8_11:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_alarm_level_14_1:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_sourcenodeid_14_2:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_system_14_12:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_alarm_type_14_0:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_exporting_14_32:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_heat_14_7:
-  hidden: true
-sensor.fibaro_system_fgd212_dimmer_2_power_management_14_11:
-  hidden: true
-light.fibaro_system_fgd212_dimmer_2_level_14_0_2:
-  hidden: true
-light.fibaro_system_fgd212_dimmer_2_step_size_14_6:
-  hidden: true
-light.fibaro_system_fgd212_dimmer_2_step_size_14_6_2:
-  hidden: true
+  homebridge_hidden: true
 light.hue_color_lamp_1:
   hidden: true
+  homebridge_hidden: true
 light.hue_color_lamp_2:
   hidden: true
+  homebridge_hidden: true
 light.hue_color_lamp_3:
   hidden: true
-switch.bedroom_thermostat:
+  homebridge_hidden: true
+switch.bathroom_fan_switch:
   hidden: true
-switch.living_room_thermostat:
+  homebridge_hidden: true
+switch.bedroom_lights_switch:
+  hidden: true
+  homebridge_hidden: true
+switch.hobby_room_lights_switch:
+  hidden: true
+  homebridge_hidden: true
+sensor.bathroom_multisensor_temperature:
+  hidden: true
+  homebridge_hidden: true
+sensor.bathroom_multisensor_alarm_level:
+  hidden: true
+sensor.bathroom_multisensor_alarm_type:
+  hidden: true
+sensor.bathroom_multisensor_sourcenodeid:
+  hidden: true
+sensor.bedroom_multisensor_temperature:
+  hidden: true
+  homebridge_hidden: true
+sensor.bedroom_multisensor_alarm_level:
+  hidden: true
+sensor.bedroom_multisensor_alarm_type:
+  hidden: true
+sensor.bedroom_multisensor_sourcenodeid:
+  hidden: true
+sensor.hallway_multisensor_temperature:
+  hidden: true
+  homebridge_hidden: true
+sensor.hallway_multisensor_alarm_level:
+  hidden: true
+sensor.hallway_multisensor_alarm_type:
+  hidden: true
+sensor.hallway_multisensor_sourcenodeid:
+  hidden: true
+sensor.living_room_multisensor_temperature:
+  hidden: true
+  homebridge_hidden: true
+sensor.living_room_multisensor_alarm_level:
+  hidden: true
+sensor.living_room_multisensor_alarm_type:
+  hidden: true
+sensor.living_room_multisensor_sourcenodeid:
+  hidden: true
+sensor.hallway_lights_alarm_level:
+  hidden: true
+sensor.hallway_lights_alarm_type:
+  hidden: true
+sensor.hallway_lights_exporting:
+  hidden: true
+sensor.hallway_lights_power_2:
+  hidden: true
+sensor.hallway_lights_power_management:
+  hidden: true
+sensor.hallway_lights_sourcenodeid:
+  hidden: true
+sensor.hallway_lights_system:
+  hidden: true
+sensor.hallway_lights_heat:
+  hidden: true
+sensor.living_room_ceiling_alarm_level:
+  hidden: true
+sensor.living_room_ceiling_alarm_type:
+  hidden: true
+sensor.living_room_ceiling_exporting:
+  hidden: true
+sensor.living_room_ceiling_power_2:
+  hidden: true
+sensor.living_room_ceiling_power_management:
+  hidden: true
+sensor.living_room_ceiling_sourcenodeid:
+  hidden: true
+sensor.living_room_ceiling_system:
+  hidden: true
+sensor.living_room_ceiling_heat:
+  hidden: true
+sensor.living_room_table_lights_alarm_level:
+  hidden: true
+sensor.living_room_table_lights_alarm_type:
+  hidden: true
+sensor.living_room_table_lights_exporting:
+  hidden: true
+sensor.living_room_table_lights_power_2:
+  hidden: true
+sensor.living_room_table_lights_power_management:
+  hidden: true
+sensor.living_room_table_lights_sourcenodeid:
+  hidden: true
+sensor.living_room_table_lights_system:
+  hidden: true
+sensor.living_room_table_lights_heat:
   hidden: true
 switch.bathroom_thermostat:
   hidden: true
+  homebridge_hidden: true
+switch.bedroom_thermostat:
+  hidden: true
+  homebridge_hidden: true
 switch.hallway_thermostat:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_temperature_3_1:
-  friendly_name: Bathroom Temperature
+  homebridge_hidden: true
+switch.hobby_room_thermostat:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_temperature_11_1:
-  friendly_name: Hallway Temperature
+  homebridge_hidden: true
+switch.living_room_thermostat:
   hidden: true
-sensor.aeotec_zw100_multisensor_6_temperature_7_1:
-  friendly_name: Living room Temperature
-  hidden: true
-sensor.aeotec_zw100_multisensor_6_temperature_12_1:
-  friendly_name: Bedroom Temperature
-  hidden: true
+  homebridge_hidden: true

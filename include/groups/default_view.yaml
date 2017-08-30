@@ -1,5 +1,6 @@
 default_view:
   view: yes
+  icon: mdi:home
   entities:
     - group.living_room
     - group.hobby_room
@@ -9,3 +10,5 @@ default_view:
     - group.bathroom
     - group.other
     - group.weather
+    - group.family
+    - group.scene
