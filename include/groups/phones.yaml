@@ -2,8 +2,8 @@ phones:
   name: Phones
   control: hidden
   entities:
-    - sensor.iphone_battery_level
-    - sensor.iphone_battery_state
+    - sensor.toniss_iphone_battery_level
+    - sensor.toniss_iphone_battery_state
     - sensor.liisi_iphone_battery_level
     - sensor.liisi_iphone_battery_state
     - sensor.toniss_ipad_battery_level
