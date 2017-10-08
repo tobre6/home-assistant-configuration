@@ -1,0 +1,9 @@
+entities:
+  - name: Router
+    url: http://192.168.1.1
+  - name: NAS
+    url: http://nas.tobre.ee
+  - name: PLEX
+    url: http://tobre.synology.me:32400
+  - name: OctoPI
+    url: http://octopi.local

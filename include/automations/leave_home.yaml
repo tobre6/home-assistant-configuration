@@ -2,7 +2,7 @@
   initial_state: true
   trigger:
     platform: state
-    entity_id: device_tracker.tniss_phone, device_tracker.iphone
+    entity_id: device_tracker.tonissphone, device_tracker.liisiiphone
     from: 'home'
     to: 'not_home'
     #for:

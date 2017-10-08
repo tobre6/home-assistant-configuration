@@ -12,3 +12,5 @@ default_view:
     - group.weather
     - group.family
     - group.scene
+    - group.weblink
+    - group.phones

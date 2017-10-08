@@ -3,20 +3,20 @@
   hide_entity: true
   trigger:
     - platform: state
-      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
+      entity_id: sensor.bedroom_multisensor_burglar
       to: '8'
   condition:
     condition: and
     conditions:
       - condition: numeric_state
-        entity_id: sensor.aeotec_zw100_multisensor_6_luminance_12_3
+        entity_id: sensor.bedroom_multisensor_luminance
         below: '2'
       - condition: time
         before: '22:00:00'
         after: '09:00:00'
   action:
     service: switch.turn_on
-    entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0
+    entity_id: switch.bedroom_lights_ceiling
 
 
 - alias: Turn off bedroom light after n minutes
@@ -24,14 +24,14 @@
   hide_entity: true
   trigger:
     - platform: state
-      entity_id: sensor.aeotec_zw100_multisensor_6_burglar_12_10
+      entity_id: sensor.bedroom_multisensor_burglar
       to: '0'
   action:
     - alias: Wait n minutes
       delay:
         minutes: 5
     - service: switch.turn_off
-      entity_id: switch.fibaro_system_fgs222_double_relay_switch_2x15kw_switch_6_0
+      entity_id: switch.bedroom_lights_ceiling
 
 - alias: Turn lights on at morning
   initial_state: true

@@ -1,0 +1,8 @@
+family:
+  name: Links
+  control: hidden
+  entities:
+    - weblink.nas
+    - weblink.octopi
+    - weblink.plex
+    - weblink.router
