@@ -30,6 +30,8 @@ sun:
 
 updater:
 
+map:
+
 ios:
 
 zwave: !include include/zwave.yaml

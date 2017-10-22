@@ -1,14 +1,37 @@
-- alias: Arrive home
+- alias: Tõnis Arrive home
   initial_state: true
   trigger:
     platform: state
-    entity_id: device_tracker.tonissphone, device_tracker.liisiiphone
+    entity_id: device_tracker.tonissphone
     from: 'not_home'
     to: 'home'
     #for:
     #  hours: 0
     #  minutes: 1
     #  seconds: 0
+  condition:
+    condition: state
+    entity_id: device_tracker.liisiiphone
+    state: 'not_home'
+  action:
+    service: scene.turn_on
+    entity_id: scene.arrive_home
+
+- alias: Liisi Arrive home
+  initial_state: true
+  trigger:
+    platform: state
+    entity_id: device_tracker.liisiiphone
+    from: 'not_home'
+    to: 'home'
+    #for:
+    #  hours: 0
+    #  minutes: 1
+    #  seconds: 0
+  condition:
+    condition: state
+    entity_id: device_tracker.tonissphone
+    state: 'not_home'
   action:
     service: scene.turn_on
     entity_id: scene.arrive_home
