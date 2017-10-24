@@ -40,6 +40,8 @@ mqtt: !include include/mqtt.yaml
 
 logger:
   default: critical
+#  logs:
+#    homeassistant.components.device_tracker: info
 
 apple_tv:
   - host: 192.168.1.190

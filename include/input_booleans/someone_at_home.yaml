@@ -1,0 +1,4 @@
+someone_at_home:
+  name: Someone at home
+  initial: on
+  icon: mdi:alarm

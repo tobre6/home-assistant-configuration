@@ -2,8 +2,8 @@ family:
   name: Family
   control: hidden
   entities:
-    - device_tracker.tniss_phone
-    - device_tracker.iphone
+    - device_tracker.tonissiphone
+    - device_tracker.liisiiphone
     - sensor.toniss_phone_battery_state
     - sensor.toniss_phone_battery_level
     - sensor.liisi_iphone_battery_state

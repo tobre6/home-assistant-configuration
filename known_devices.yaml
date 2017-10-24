@@ -1,56 +1,3 @@
-tniss_phone:
-  hide_if_away: false
-  icon:
-  mac:
-  name: Tõnis iPhone
-  picture:
-  track: true
-  vendor:
-
-iphone:
-  hide_if_away: false
-  icon:
-  mac:
-  name: Liisi iPhone
-  picture:
-  track: true
-  vendor:
-
-home:
-  hide_if_away: false
-  icon:
-  mac: 6C:88:14:33:89:E4
-  name: home
-  picture:
-  track: true
-  vendor: Intel Corporate
-
-tonissipad2:
-  hide_if_away: false
-  icon:
-  mac: 84:89:AD:43:DF:D7
-  name: Toniss-iPad-2
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-tonissimac:
-  hide_if_away: false
-  icon:
-  mac: 7C:C3:A1:A2:C1:48
-  name: Toniss-iMac
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-esp_9951a1:
-  hide_if_away: false
-  icon:
-  mac: 18:FE:34:99:51:A1
-  name: ESP 9951A1
-  picture:
-  track: true
-  vendor: Espressif Inc.
 
 liisisipad:
   hide_if_away: false
@@ -61,33 +8,6 @@ liisisipad:
   track: true
   vendor: Apple, Inc.
 
-tonissphone:
-  hide_if_away: false
-  icon:
-  mac: B8:53:AC:51:52:EA
-  name: Toniss-Phone
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-tonissmbp:
-  hide_if_away: false
-  icon:
-  mac: 78:4F:43:5A:FD:3D
-  name: Toniss-MBP
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-lgwebostv:
-  hide_if_away: false
-  icon:
-  mac: E8:F2:E2:90:8D:C2
-  name: LGwebOSTV
-  picture:
-  track: true
-  vendor: LG Innotek
-
 philipshue:
   hide_if_away: false
   icon:
@@ -97,20 +17,56 @@ philipshue:
   track: true
   vendor: Philips Lighting BV
 
-esp_cccbbf:
+liisiiphone:
   hide_if_away: false
   icon:
-  mac: 18:FE:34:CC:CB:BF
-  name: ESP CCCBBF
+  mac: 98:10:E8:E3:8A:CC
+  name: Liisi-iPhone
   picture:
   track: true
-  vendor: Espressif Inc.
+  vendor: Apple, Inc.
 
-appletv2:
+tonissmbp:
   hide_if_away: false
   icon:
-  mac: D0:03:4B:4C:B9:52
-  name: Apple-TV-2
+  mac: 8C:85:90:35:7F:34
+  name: Toniss-MBP
+  picture:
+  track: true
+  vendor: unknown
+
+tonissipad2:
+  hide_if_away: false
+  icon:
+  mac: 84:89:AD:43:DF:D7
+  name: Toniss-iPad-2
+  picture:
+  track: true
+  vendor: unknown
+
+tobrepc:
+  hide_if_away: false
+  icon:
+  mac: 7C:C3:A1:A2:C1:48
+  name: tobre-PC
+  picture:
+  track: true
+  vendor: unknown
+
+home:
+  hide_if_away: false
+  icon:
+  mac: 6C:88:14:33:89:E4
+  name: home
+  picture:
+  track: true
+  vendor: unknown
+
+esp_9951a1:
+  hide_if_away: false
+  icon:
+  mac: 18:FE:34:99:51:A1
+  name: ESP 9951A1
   picture:
   track: true
   vendor: unknown
@@ -122,175 +78,31 @@ octopi:
   name: octopi
   picture:
   track: true
-  vendor: Raspberry Pi Foundation
+  vendor: unknown
 
-android_ea107831bb17bcf8:
+esp_cccbbf:
   hide_if_away: false
   icon:
-  mac: 90:03:B7:76:01:4A
-  name: android ea107831bb17bcf8
-  picture:
-  track: true
-  vendor: PARROT SA
-
-liisisaplewatch:
-  hide_if_away: false
-  icon:
-  mac: 20:78:F0:CA:B2:14
-  name: LiisisApleWatch
+  mac: 18:FE:34:CC:CB:BF
+  name: ESP CCCBBF
   picture:
   track: true
   vendor: unknown
 
-liisiiphone:
+appletv2:
   hide_if_away: false
   icon:
-  mac: 98:10:E8:E3:8A:CC
-  name: Liisi-iPhone
-  picture:
-  track: true
-  vendor: unknown
-
-a0f6fd29a7fb:
-  hide_if_away: false
-  icon:
-  mac: A0:F6:FD:29:A7:FB
-  name: a0f6fd29a7fb
-  picture:
-  track: true
-  vendor: Texas Instruments
-
-liisismbp:
-  hide_if_away: false
-  icon:
-  mac: 3C:15:C2:DD:29:CE
-  name: Liisis-MBP
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-esp_d024ac:
-  hide_if_away: false
-  icon:
-  mac: 18:FE:34:D0:24:AC
-  name: ESP D024AC
-  picture:
-  track: true
-  vendor: Espressif Inc.
-
-tonissmbp_2:
-  hide_if_away: false
-  icon:
-  mac: 8C:85:90:35:7F:34
-  name: Toniss-MBP
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-esp_147bf5:
-  hide_if_away: false
-  icon:
-  mac: 5C:CF:7F:14:7B:F5
-  name: ESP 147BF5
-  picture:
-  track: true
-  vendor: unknown
-
-0024e4379c96:
-  hide_if_away: false
-  icon:
-  mac: 00:24:E4:37:9C:96
-  name: 0024e4379c96
-  picture:
-  track: true
-  vendor: Withings
-
-0024e44aa652:
-  hide_if_away: false
-  icon:
-  mac: 00:24:E4:4A:A6:52
-  name: 0024e44aa652
-  picture:
-  track: true
-  vendor: Withings
-
-rainsmbp2:
-  hide_if_away: false
-  icon:
-  mac: AC:BC:32:8A:D5:11
-  name: Rains-MBP-2
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-karlaugustsipad:
-  hide_if_away: false
-  icon:
-  mac: DC:A4:CA:A4:0C:82
-  name: KarlAugustsiPad
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-iphone_2:
-  hide_if_away: false
-  icon:
-  mac: B8:53:AC:52:8A:8E
-  name: iPhone
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-karlaugtsiphone:
-  hide_if_away: false
-  icon:
-  mac: 48:3B:38:74:BC:A1
-  name: KarlAugtsiPhone
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-karlaugplewatch:
-  hide_if_away: false
-  icon:
-  mac: 40:4D:7F:22:99:53
-  name: KarlAugpleWatch
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-androidc0f7340a719c6d53:
-  hide_if_away: false
-  icon:
-  mac: C0:EE:FB:DC:8E:9A
-  name: android-c0f7340a719c6d53
-  picture:
-  track: true
-  vendor: OnePlus Tech (Shenzhen) Ltd
-
-appletv2_2:
-  hide_if_away: false
-  icon:
-  mac: D0:03:4B:4C:B9:50
+  mac: D0:03:4B:4C:B9:52
   name: Apple-TV-2
   picture:
   track: true
+  vendor: unknown
+
+tonissiphone:
+  hide_if_away: false
+  icon:
+  mac: B8:53:AC:51:52:EA
+  name: Toniss-iPhone
+  picture:
+  track: true
   vendor: Apple, Inc.
-
-android4eba130f94a3fd63:
-  hide_if_away: false
-  icon:
-  mac: 40:40:A7:9C:4B:FA
-  name: android-4eba130f94a3fd63
-  picture:
-  track: true
-  vendor: Sony Mobile Communications AB
-
-android5a12f09583b0878f:
-  hide_if_away: false
-  icon:
-  mac: 70:28:8B:36:D6:31
-  name: android-5a12f09583b0878f
-  picture:
-  track: true
-  vendor: Samsung Electronics Co.,Ltd
