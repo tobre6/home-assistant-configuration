@@ -100,6 +100,12 @@ light.hallway_lights_ceiling:
   friendly_name: Hallway light
 light.living_room:
   friendly_name: Living room light
+light.hue_go_1:
+  friendly_name: Liisi reading light
+light.hue_go_2:
+  friendly_name: Tõnis reading light
+light.bedroom:
+  friendly_name: Bedroom reading lights  
 
 # Covers
 cover.livingroom_windowshade:

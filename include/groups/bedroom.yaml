@@ -9,5 +9,6 @@ bedroom:
     - binary_sensor.bedroom_multisensor_sensor
     - sensor.bedroom_multisensor_burglar
     - switch.bedroom_lights_ceiling
-    - light.bedroom_reading_left
-    - light.bedroom_reading_right
+    - light.bedroom
+    - light.hue_go_1
+    - light.hue_go_2

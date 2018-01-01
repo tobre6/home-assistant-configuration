@@ -4,8 +4,6 @@ hobby_room:
   entities:
     - switch.hobby_room_lights_ceiling
     - light.hobby_room_table_light
-    - switch.niito_clean
-    - sensor.niito_status
-    - sensor.niito_battery
+    - vacuum.niito
     - switch.hobby_room_thermostat
     - camera.niito_cleaning_map

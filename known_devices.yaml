@@ -1,22 +1,4 @@
 
-liisisipad:
-  hide_if_away: false
-  icon:
-  mac: 94:E9:6A:4E:52:0A
-  name: Liisis-iPad
-  picture:
-  track: true
-  vendor: Apple, Inc.
-
-philipshue:
-  hide_if_away: false
-  icon:
-  mac: 00:17:88:41:B9:02
-  name: Philips-hue
-  picture:
-  track: true
-  vendor: Philips Lighting BV
-
 liisiiphone:
   hide_if_away: false
   icon:
@@ -26,82 +8,10 @@ liisiiphone:
   track: true
   vendor: Apple, Inc.
 
-tonissmbp:
-  hide_if_away: false
-  icon:
-  mac: 8C:85:90:35:7F:34
-  name: Toniss-MBP
-  picture:
-  track: true
-  vendor: unknown
-
-tonissipad2:
-  hide_if_away: false
-  icon:
-  mac: 84:89:AD:43:DF:D7
-  name: Toniss-iPad-2
-  picture:
-  track: true
-  vendor: unknown
-
-tobrepc:
-  hide_if_away: false
-  icon:
-  mac: 7C:C3:A1:A2:C1:48
-  name: tobre-PC
-  picture:
-  track: true
-  vendor: unknown
-
-home:
-  hide_if_away: false
-  icon:
-  mac: 6C:88:14:33:89:E4
-  name: home
-  picture:
-  track: true
-  vendor: unknown
-
-esp_9951a1:
-  hide_if_away: false
-  icon:
-  mac: 18:FE:34:99:51:A1
-  name: ESP 9951A1
-  picture:
-  track: true
-  vendor: unknown
-
-octopi:
-  hide_if_away: false
-  icon:
-  mac: B8:27:EB:2D:2F:3A
-  name: octopi
-  picture:
-  track: true
-  vendor: unknown
-
-esp_cccbbf:
-  hide_if_away: false
-  icon:
-  mac: 18:FE:34:CC:CB:BF
-  name: ESP CCCBBF
-  picture:
-  track: true
-  vendor: unknown
-
-appletv2:
-  hide_if_away: false
-  icon:
-  mac: D0:03:4B:4C:B9:52
-  name: Apple-TV-2
-  picture:
-  track: true
-  vendor: unknown
-
 tonissiphone:
   hide_if_away: false
   icon:
-  mac: B8:53:AC:51:52:EA
+  mac: 40:98:AD:36:58:D2
   name: Toniss-iPhone
   picture:
   track: true

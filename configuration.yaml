@@ -18,7 +18,7 @@ http:
 discovery:
   ignore:
     - plex_mediaserver
-    - apple_tv
+#    - apple_tv
 
 conversation:
 
@@ -43,11 +43,11 @@ logger:
 #  logs:
 #    homeassistant.components.device_tracker: info
 
-apple_tv:
-  - host: 192.168.1.190
-    login_id: 00000000-22f8-d5d1-1623-955605e5410b
-    name: Apple TV
-    start_off: true
+#apple_tv:
+#  - host: 192.168.1.94
+#    login_id: 00000000-22f8-d5d1-1623-955605e5410b
+#    name: Apple TV
+#    start_off: true
 #    credentials: 7B9CF6704A657782:727C68D5345687365781D52C675A4CE49FFCFF28D498720DA920E8FE7E871444
 
 #octoprint:
