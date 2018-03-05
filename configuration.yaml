@@ -34,6 +34,8 @@ map:
 
 ios:
 
+homekit:
+
 zwave: !include include/zwave.yaml
 
 mqtt: !include include/mqtt.yaml
@@ -77,3 +79,4 @@ sensor: !include_dir_merge_list include/sensors
 #camera: !include include/cameras.yaml
 input_boolean: !include_dir_merge_named include/input_booleans
 weblink: !include include/weblinks.yaml
+remote: !include_dir_list include/remote

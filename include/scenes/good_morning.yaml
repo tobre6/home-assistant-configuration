@@ -1,7 +1,5 @@
 name: Good morning
 entities:
-  switch.tv_switch:
-    state: on
   light.living_room_ceiling_light:
     state: on
     brightness: 255
@@ -11,3 +9,5 @@ entities:
   light.kitchen_rgbw_working_lights:
     state: on
     brightness: 255
+  switch.tv_switch:
+    state: on

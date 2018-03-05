@@ -105,7 +105,11 @@ light.hue_go_1:
 light.hue_go_2:
   friendly_name: Tõnis reading light
 light.bedroom:
-  friendly_name: Bedroom reading lights  
+  friendly_name: Bedroom reading lights
+light.hgrp0000000014:
+  homebridge_hidden: true
+light.hgrp0000000062:
+  homebridge_hidden: true
 
 # Covers
 cover.livingroom_windowshade:
@@ -136,6 +140,7 @@ switch.niito_schedule:
 switch.car_heater:
   icon: mdi:fan
 switch.tv_switch:
+  friendly_name: TV
   icon: mdi:television
 
 # Media players

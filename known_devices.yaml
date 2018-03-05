@@ -16,3 +16,309 @@ tonissiphone:
   picture:
   track: true
   vendor: Apple, Inc.
+
+tonissimac:
+  hide_if_away: false
+  icon:
+  mac: 7C:C3:A1:A2:C1:48
+  name: Toniss-iMac
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+appletv5:
+  hide_if_away: false
+  icon:
+  mac: D0:03:4B:4C:B9:52
+  name: Apple-TV-5
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+liisisipad:
+  hide_if_away: false
+  icon:
+  mac: 94:E9:6A:4E:52:0A
+  name: Liisis-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+esp_9951a1:
+  hide_if_away: false
+  icon:
+  mac: 18:FE:34:99:51:A1
+  name: ESP 9951A1
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+home:
+  hide_if_away: false
+  icon:
+  mac: 6C:88:14:33:89:E4
+  name: home
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+tonissipad:
+  hide_if_away: false
+  icon:
+  mac: 84:89:AD:43:DF:D7
+  name: Toniss-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+esp_cccbbf:
+  hide_if_away: false
+  icon:
+  mac: 18:FE:34:CC:CB:BF
+  name: ESP CCCBBF
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+octopi:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:2D:2F:3A
+  name: octopi
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+philipshue:
+  hide_if_away: false
+  icon:
+  mac: 00:17:88:41:B9:02
+  name: Philips-hue
+  picture:
+  track: false
+  vendor: Philips Lighting BV
+
+0024e4379c96:
+  hide_if_away: false
+  icon:
+  mac: 00:24:E4:37:9C:96
+  name: 0024e4379c96
+  picture:
+  track: false
+  vendor: Withings
+
+0024e44aa652:
+  hide_if_away: false
+  icon:
+  mac: 00:24:E4:4A:A6:52
+  name: 0024e44aa652
+  picture:
+  track: false
+  vendor: Withings
+
+lgwebostv:
+  hide_if_away: false
+  icon:
+  mac: E8:F2:E2:90:8D:C2
+  name: LGwebOSTV
+  picture:
+  track: false
+  vendor: LG Innotek
+
+android_ea107831bb17bcf8:
+  hide_if_away: false
+  icon:
+  mac: 90:03:B7:76:01:4A
+  name: android ea107831bb17bcf8
+  picture:
+  track: false
+  vendor: PARROT SA
+
+esp_147bf5:
+  hide_if_away: false
+  icon:
+  mac: 5C:CF:7F:14:7B:F5
+  name: ESP 147BF5
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+a0f6fd29a7fb:
+  hide_if_away: false
+  icon:
+  mac: A0:F6:FD:29:A7:FB
+  name: a0f6fd29a7fb
+  picture:
+  track: false
+  vendor: Texas Instruments
+
+esp_d024ac:
+  hide_if_away: false
+  icon:
+  mac: 18:FE:34:D0:24:AC
+  name: ESP D024AC
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+liisismbp:
+  hide_if_away: false
+  icon:
+  mac: 3C:15:C2:DD:29:CE
+  name: Liisis-MBP
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+tonissaplewatch:
+  hide_if_away: false
+  icon:
+  mac: C4:84:66:18:AC:A2
+  name: TonissApleWatch
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+liisisaplewatch:
+  hide_if_away: false
+  icon:
+  mac: 40:98:AD:C5:0B:3D
+  name: LiisisApleWatch
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: iphone
+  picture:
+  track: false
+  vendor:
+
+tonissmbp:
+  hide_if_away: false
+  icon:
+  mac: 8C:85:90:35:7F:34
+  name: Toniss-MBP
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+tniss_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: tniss iphone
+  picture:
+  track: false
+  vendor:
+
+appletv:
+  hide_if_away: false
+  icon:
+  mac: D0:03:4B:4C:B9:50
+  name: Apple-TV
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+ipad:
+  hide_if_away: false
+  icon:
+  mac: 78:7B:8A:62:B8:5F
+  name: iPad
+  picture:
+  track: false
+  vendor: unknown
+
+appletv_2:
+  hide_if_away: false
+  icon:
+  mac: 40:CB:C0:D7:6E:27
+  name: Apple-TV
+  picture:
+  track: false
+  vendor: unknown
+
+audiocast_0e08:
+  hide_if_away: false
+  icon:
+  mac: 00:22:6C:8A:0E:0A
+  name: AudioCast 0E08
+  picture:
+  track: true
+  vendor: LinkSprite Technologies, Inc.
+
+00005e000101:
+  hide_if_away: false
+  icon:
+  mac: 00:00:5E:00:01:01
+  name: 00005e000101
+  picture:
+  track: false
+  vendor: ICANN, IANA Department
+
+001132484085:
+  hide_if_away: false
+  icon:
+  mac: 00:11:32:48:40:85
+  name: 001132484085
+  picture:
+  track: false
+  vendor: Synology Incorporated
+
+e48184001d4e:
+  hide_if_away: false
+  icon:
+  mac: E4:81:84:00:1D:4E
+  name: e48184001d4e
+  picture:
+  track: false
+  vendor: Nokia
+
+d017c2b0c44c:
+  hide_if_away: false
+  icon:
+  mac: D0:17:C2:B0:C4:4C
+  name: d017c2b0c44c
+  picture:
+  track: false
+  vendor: ASUSTek COMPUTER INC.
+
+android5a12f09583b0878f:
+  hide_if_away: false
+  icon:
+  mac: 70:28:8B:36:D6:31
+  name: android-5a12f09583b0878f
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+oneplus_3:
+  hide_if_away: false
+  icon:
+  mac: C0:EE:FB:DC:8E:9A
+  name: OnePlus 3
+  picture:
+  track: false
+  vendor: OnePlus Tech (Shenzhen) Ltd
+
+84262bea0cd8:
+  hide_if_away: false
+  icon:
+  mac: 84:26:2B:EA:0C:D8
+  name: 84262bea0cd8
+  picture:
+  track: false
+  vendor: Nokia
+
+harmonyhub:
+  hide_if_away: false
+  icon:
+  mac: C8:DB:26:05:8D:B3
+  name: HarmonyHub
+  picture:
+  track: false
+  vendor: Logitech
