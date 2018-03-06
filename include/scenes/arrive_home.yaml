@@ -11,7 +11,3 @@ entities:
   light.hallway_lights_ceiling:
     state: on
     brightness: 3
-  light.kitchen_rgbw_rgbw:
-    state: on
-    brightness: 28
-    rgb_color: 4,18,20 #light blue

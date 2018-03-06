@@ -69,7 +69,6 @@ light: !include_dir_list include/lights
 climate: !include_dir_list include/climates
 #cover: !include_dir_list include/covers
 device_tracker: !include_dir_list include/device_trackers
-shell_command: !include include/shell_commands.yaml
 scene: !include_dir_list include/scenes
 automation: !include_dir_merge_list include/automations
 script: !include_dir_merge_named include/scripts
